@@ -1,0 +1,16 @@
+{
+  "seed": 1901,
+  "families": 50,
+  "strata": [
+    "size_variation",
+    "ellipsoids",
+    "boxes",
+    "partial_occlusion",
+    "camera_variation"
+  ],
+  "examples": 200,
+  "geometry_rejections": 32,
+  "native_audit_families": 10,
+  "selection": "First two families of each stratum, before any model results. All others fixed-state/expert only.",
+  "calibration": "Frozen prior run calibration; all new scenes are evaluation."
+}

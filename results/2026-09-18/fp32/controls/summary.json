@@ -1,0 +1,600 @@
+{
+  "evaluation_eligible": 32,
+  "evaluation_families": 8,
+  "excluded_controls": 0,
+  "scope": "Decoder branch only; no equivalence or answer-use claim.",
+  "conditions": {
+    "native": {
+      "cross_image_state": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0007261896555726094,
+          "ci95": [
+            0.0006017745624658137,
+            0.0008493523120723759
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.19540911549702286,
+          "ci95": [
+            0.18157944154110736,
+            0.21180492616258562
+          ],
+          "families": 8
+        }
+      },
+      "fixed_calibration_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.000607820344175166,
+          "ci95": [
+            0.0005378082429087667,
+            0.0006830502247772722
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.16488731233403087,
+          "ci95": [
+            0.14589207401731982,
+            0.1806396993342787
+          ],
+          "families": 8
+        }
+      },
+      "fixed_calibration_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0005225566831738061,
+          "ci95": [
+            0.0003749162781376028,
+            0.0006905718311849647
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.1464868348557502,
+          "ci95": [
+            0.1238058612216264,
+            0.16976213030866344
+          ],
+          "families": 8
+        }
+      },
+      "native_state": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.58125,
+          "ci95": [
+            0.50625,
+            0.68125
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0125,
+          "ci95": [
+            0.0,
+            0.037500000000000006
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.58125,
+          "ci95": [
+            0.50625,
+            0.68125
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.8413615587884535,
+          "ci95": [
+            0.6808397285680913,
+            1.0064450097336164
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 140.92079076766967,
+          "ci95": [
+            135.99956028103827,
+            146.38092469573022
+          ],
+          "families": 8
+        }
+      },
+      "zero_hidden": {
+        "correct": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.8916493210660007,
+          "ci95": [
+            0.7944695476751009,
+            0.9932711573894646
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 247.33454513549805,
+          "ci95": [
+            245.06845566034318,
+            249.37727432250978
+          ],
+          "families": 8
+        }
+      },
+      "zero_projected_tokens": {
+        "correct": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.8916493210660007,
+          "ci95": [
+            0.7944695476751009,
+            0.9932711573894646
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 247.33454513549805,
+          "ci95": [
+            245.06845566034318,
+            249.37727432250978
+          ],
+          "families": 8
+        }
+      }
+    },
+    "float32": {
+      "cross_image_state": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0007108903660233673,
+          "ci95": [
+            0.0005940565729933068,
+            0.0008262508464505722
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.19456619983538986,
+          "ci95": [
+            0.1821917132276576,
+            0.20932426360086537
+          ],
+          "families": 8
+        }
+      },
+      "fixed_calibration_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0006265166148488183,
+          "ci95": [
+            0.0005496128936214867,
+            0.0007172095422248344
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.16960387048311532,
+          "ci95": [
+            0.15048392955213785,
+            0.1859983280301094
+          ],
+          "families": 8
+        }
+      },
+      "fixed_calibration_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0004930898030928998,
+          "ci95": [
+            0.00038630062387387185,
+            0.0006212989140160814
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.14281827548984438,
+          "ci95": [
+            0.12037142094050068,
+            0.16690007797442377
+          ],
+          "families": 8
+        }
+      },
+      "native_state": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.58125,
+          "ci95": [
+            0.50625,
+            0.68125
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 0.0125,
+          "ci95": [
+            0.0,
+            0.037500000000000006
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.58125,
+          "ci95": [
+            0.50625,
+            0.68125
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.8413081480370422,
+          "ci95": [
+            0.6807241057002715,
+            1.0064597448810968
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 140.91773900985717,
+          "ci95": [
+            135.99793939232828,
+            146.3757903218269
+          ],
+          "families": 8
+        }
+      },
+      "zero_hidden": {
+        "correct": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.891658691182173,
+          "ci95": [
+            0.7944790433960476,
+            0.9932731929718399
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 247.33763551712036,
+          "ci95": [
+            245.06849019527436,
+            249.38294377326966
+          ],
+          "families": 8
+        }
+      },
+      "zero_projected_tokens": {
+        "correct": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abstain": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "label_agreement": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        },
+        "abs_margin_delta": {
+          "mean": 0.891658691182173,
+          "ci95": [
+            0.7944790433960476,
+            0.9932731929718399
+          ],
+          "families": 8
+        },
+        "map_rmse": {
+          "mean": 247.33763551712036,
+          "ci95": [
+            245.06849019527436,
+            249.38294377326966
+          ],
+          "families": 8
+        }
+      }
+    }
+  }
+}

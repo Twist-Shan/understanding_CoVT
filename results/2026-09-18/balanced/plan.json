@@ -1,0 +1,39 @@
+{
+  "seed": 1902,
+  "images": 32,
+  "families": 8,
+  "calibration": {
+    "decoder": {
+      "direction": -1,
+      "scale": 151.8531951904297,
+      "tie_margin": 0.05,
+      "families": [
+        "scene_00000",
+        "scene_00001"
+      ],
+      "examples": 8,
+      "calibration_accuracy": 1.0
+    },
+    "expert": {
+      "direction": -1,
+      "scale": 167.69918823242188,
+      "tie_margin": 0.05,
+      "families": [
+        "scene_00000",
+        "scene_00001"
+      ],
+      "examples": 8,
+      "calibration_accuracy": 1.0
+    }
+  },
+  "conditions": [
+    "baseline",
+    "identity",
+    "opposite_depth",
+    "same_depth_other_family",
+    "token_shuffle"
+  ],
+  "site": "Input residual of middle transformer block at four naturally generated depth-pad positions.",
+  "rollout": "Truncate immediately after last depth pad; recompute full prefix with use_cache=False on every step. No target answer tokens retained.",
+  "limits": "Exploratory single-layer pilot; depth exchange also changes world radii and floor-contact positions. No causal claim about a pure depth concept."
+}

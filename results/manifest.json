@@ -1,0 +1,947 @@
+{
+  "scope": "Selected original JSON/JSONL evidence; original runtime paths are preserved. No activation caches or model weights.",
+  "files": [
+    {
+      "path": "results/2026-09-18/initial/doctor.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/doctor.json",
+      "bytes": 560,
+      "sha256": "6d7f908b223ed7c1f2f7c770981c1926ff5f1fa349665a266750bbd6ac5eada7"
+    },
+    {
+      "path": "results/2026-09-18/initial/expert_download.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/expert_download.json",
+      "bytes": 117,
+      "sha256": "e4898b8096e95ab13556e3f3a77ceb0ab7424b55a1649b300e72ed5c3ea30b2f"
+    },
+    {
+      "path": "results/2026-09-18/initial/e0/calibration.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e0/calibration.json",
+      "bytes": 390,
+      "sha256": "aa17194f5976837bfc1d31e2f506e69590b264d7e1e8b7c7d2efc8dfcf48ca63"
+    },
+    {
+      "path": "results/2026-09-18/initial/e0/results.jsonl",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e0/results.jsonl",
+      "bytes": 29733,
+      "sha256": "ac748d0868d2544b4feb56937012ab0c1a56a11205f56ecfbffb1dbfcf308414"
+    },
+    {
+      "path": "results/2026-09-18/initial/e0/run.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e0/run.json",
+      "bytes": 5562,
+      "sha256": "49daf9e702152a08e9284655403398652d0655d438d8469b6496664304c437d0"
+    },
+    {
+      "path": "results/2026-09-18/initial/e0/scored.jsonl",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e0/scored.jsonl",
+      "bytes": 18671,
+      "sha256": "4621bfb5b72057728b51f7d2fcc1d0ed609f77ced06eed0ff18179fabc365ba5"
+    },
+    {
+      "path": "results/2026-09-18/initial/e0/summary.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e0/summary.json",
+      "bytes": 762,
+      "sha256": "82a4cc47d2c116b044c12262ae246f306e67a01b51107363f2ad731ad95fa7c2"
+    },
+    {
+      "path": "results/2026-09-18/initial/e1/exclusions.jsonl",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e1/exclusions.jsonl",
+      "bytes": 176,
+      "sha256": "a65b2dd993b27d593d09d94d75d2ba2cea21325762a2a23f38bc48647956dd39"
+    },
+    {
+      "path": "results/2026-09-18/initial/e1/results.jsonl",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e1/results.jsonl",
+      "bytes": 1110,
+      "sha256": "8ba2b0ea2684a462ad617f62d998ea65c5a18a4859d34ae2bd572a8b668dbd42"
+    },
+    {
+      "path": "results/2026-09-18/initial/e1/run.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e1/run.json",
+      "bytes": 492,
+      "sha256": "c5ae117f5994d7cac1f9eeac9692f5af97389647e023659543d6ceba80bbc76a"
+    },
+    {
+      "path": "results/2026-09-18/initial/e1/summary.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/e1/summary.json",
+      "bytes": 1039,
+      "sha256": "0e097b641e5982d9b252b7d0abe584387654eed1d7596ad239cac447a0e28520"
+    },
+    {
+      "path": "results/2026-09-18/initial/scenes/dataset.json",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/scenes/dataset.json",
+      "bytes": 191,
+      "sha256": "87caa7086af95063c635df0bc4f2f1d44a3e337d8624b7cbf48ac43f44808376"
+    },
+    {
+      "path": "results/2026-09-18/initial/scenes/manifest.jsonl",
+      "source": "runs/colab-20260918-backup/runs/colab-e0-20260918-032255/scenes/manifest.jsonl",
+      "bytes": 9108,
+      "sha256": "d13a7bb260c2a2544538da6220ca21c1219b4d802cadc405d4d79d65f5ff8c79"
+    },
+    {
+      "path": "results/2026-09-18/fp32/plan.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/plan.json",
+      "bytes": 394,
+      "sha256": "fa025cb6acc0a0d302741a0d6d5681b7879069bf763c9a98620f7531c7732cdd"
+    },
+    {
+      "path": "results/2026-09-18/fp32/controls/exclusions.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/controls/exclusions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/2026-09-18/fp32/controls/results.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/controls/results.jsonl",
+      "bytes": 405919,
+      "sha256": "5528fbbc12d34f861105cbc68402844d0065866be4a9ba9cc03f53d58aa39dfa"
+    },
+    {
+      "path": "results/2026-09-18/fp32/controls/run.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/controls/run.json",
+      "bytes": 1094,
+      "sha256": "beebc1a2152ad8361fe4d457201a6752e999445e4e4c1130d1d112bc47cc89b5"
+    },
+    {
+      "path": "results/2026-09-18/fp32/controls/summary.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/controls/summary.json",
+      "bytes": 12380,
+      "sha256": "daead98941f8e185c49716c6ec7a9ecdbeec10a72eccf046c5c58edaf960cc87"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e0/calibration.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e0/calibration.json",
+      "bytes": 431,
+      "sha256": "7c7ebb61c13dd8f3a271dff0b8a86374116040d940f6fc4ce5ff8d974e950e8a"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e0/results.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e0/results.jsonl",
+      "bytes": 99097,
+      "sha256": "a3b2bdfed4fe0d618a0b87cfef769978b660a2516a150377e6e4ba9256453ba3"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e0/run.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e0/run.json",
+      "bytes": 5564,
+      "sha256": "b0dce7699d1cd9bfff346a0d2ffac1dcb69cd0f2e85deadd94c7dc59a835813a"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e0/scored.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e0/scored.jsonl",
+      "bytes": 85280,
+      "sha256": "5384049bfdeab8af2ffb334e0c9116651f74827cf620e0967a45a43b71020d78"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e0/summary.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e0/summary.json",
+      "bytes": 742,
+      "sha256": "cebb77a712fa5ffdf1758139da5b61a9d3fee60677eea9bc7495f4dc78f3806d"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e1/exclusions.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e1/exclusions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e1/results.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e1/results.jsonl",
+      "bytes": 8971,
+      "sha256": "ac76bb7c717136ad83f4bc8c24a0235785451b6e122c5e0a479c9f119cfdc2ff"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e1/run.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e1/run.json",
+      "bytes": 517,
+      "sha256": "6ffeda23132bacfa3f3e25adc62e96d31e883ce0c06e9eaad56f8f7a3d49cb80"
+    },
+    {
+      "path": "results/2026-09-18/fp32/e1/summary.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/e1/summary.json",
+      "bytes": 1562,
+      "sha256": "36639335b3cca9cb96412bd43e3c47b31d9caa07bc5be8f514464aa5ca8e2b14"
+    },
+    {
+      "path": "results/2026-09-18/fp32/scenes/dataset.json",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/scenes/dataset.json",
+      "bytes": 193,
+      "sha256": "345c6c7c5fa7461e65e7923f81eef90db98f9c634d733874dca20b54e69cef13"
+    },
+    {
+      "path": "results/2026-09-18/fp32/scenes/manifest.jsonl",
+      "source": "runs/colab-20260918-followup/runs/followup-fp32-20260918-043002/scenes/manifest.jsonl",
+      "bytes": 30348,
+      "sha256": "a8f0cf14b72a61555eff4bb3cef9df7ff93c3bdd0f162a61c668c07283ebd2ba"
+    },
+    {
+      "path": "results/2026-09-18/answer/backbone_loading.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/backbone_loading.json",
+      "bytes": 95,
+      "sha256": "ea8462ce1fb5161e28a2547070c1a7915315f32097d1aec2ca40a21e18831d85"
+    },
+    {
+      "path": "results/2026-09-18/answer/covt_loading.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/covt_loading.json",
+      "bytes": 506,
+      "sha256": "69a45f3b47d3ac686a4b1c49357b7b9e2c686129cbc6378fb149d308930216f2"
+    },
+    {
+      "path": "results/2026-09-18/answer/paired_summary.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/paired_summary.json",
+      "bytes": 661,
+      "sha256": "6d2d9d1ab01c2a90808764ccd03ef680a7c1ee1fa91c8a9fdadf0de2de2855ad"
+    },
+    {
+      "path": "results/2026-09-18/answer/plan.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/plan.json",
+      "bytes": 742,
+      "sha256": "1bfcaa3be70d90bb842d8502b2e085be4336d5e62d169cd29ba070419fb4f975"
+    },
+    {
+      "path": "results/2026-09-18/answer/results.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/results.jsonl",
+      "bytes": 284060,
+      "sha256": "51ce91256ff8729b18c23a185fed06ef42e16d4143e250a0f38f3d8ef12a253d"
+    },
+    {
+      "path": "results/2026-09-18/answer/summary.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/answer-diagnostic-20260918-050133/summary.json",
+      "bytes": 5547,
+      "sha256": "5a8f8074ff39881b68b594a4aecfaa7dc44f4f12939ffc4521c240e39660081d"
+    },
+    {
+      "path": "results/2026-09-18/shift/analysis.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/analysis.json",
+      "bytes": 4391,
+      "sha256": "b7ad2a98614f8d59c1394a6d4091ac80c4ff200257c2403bec98a939922f94bd"
+    },
+    {
+      "path": "results/2026-09-18/shift/expert_provenance.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/expert_provenance.json",
+      "bytes": 330,
+      "sha256": "29bc99493a4f0f0dcbf0a0d168c35535074b928dd7483ea10b4feb966f8fd9b0"
+    },
+    {
+      "path": "results/2026-09-18/shift/feature_index.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/feature_index.jsonl",
+      "bytes": 6680,
+      "sha256": "b482c91328cb066da7a2c9daf852933ad7033cba2894aed7e18a252eecb402db"
+    },
+    {
+      "path": "results/2026-09-18/shift/frozen_results.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/frozen_results.jsonl",
+      "bytes": 150755,
+      "sha256": "98362d339f6e7679e54e5d30e7495c038852ef0676d16305980b7a64de84adbf"
+    },
+    {
+      "path": "results/2026-09-18/shift/frozen_summary.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/frozen_summary.json",
+      "bytes": 5336,
+      "sha256": "d6eb8f9fc795ca4d9b766024e47a141f2a947463925e2435d62029ec5350a439"
+    },
+    {
+      "path": "results/2026-09-18/shift/geometry_baseline.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/geometry_baseline.json",
+      "bytes": 42312,
+      "sha256": "2ea5bbb0be57a5cca4cab35fd753b311c4b29ac8cac0d1312499eafef58da6b6"
+    },
+    {
+      "path": "results/2026-09-18/shift/plan.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/plan.json",
+      "bytes": 1401,
+      "sha256": "d6cfcd59c5e3ed0f953c383093900f466b173242e8bd6285f723563c816deca5"
+    },
+    {
+      "path": "results/2026-09-18/shift/native/controls.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/native/controls.jsonl",
+      "bytes": 171108,
+      "sha256": "e0ce743e21facaa24d5feb3190aef053b2a7e808f5d63bf0091b4a02fbf717fa"
+    },
+    {
+      "path": "results/2026-09-18/shift/native/results.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/native/results.jsonl",
+      "bytes": 99411,
+      "sha256": "711e91cbbcfa9ab29cd7d21e2d4fe6f4c06f2f8e7738e4e9a909ca2cb3d11c19"
+    },
+    {
+      "path": "results/2026-09-18/shift/native/summary.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/native/summary.json",
+      "bytes": 12650,
+      "sha256": "06d1c5de075a4c26a9aee03c79099dc3612321ee2e80bc3fcbcb36f297556629"
+    },
+    {
+      "path": "results/2026-09-18/shift/scenes/dataset.json",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/scenes/dataset.json",
+      "bytes": 433,
+      "sha256": "78cf3b8796308b352496d3f52839a7a7278a6624b85db5fe8b936e862ccc6cf9"
+    },
+    {
+      "path": "results/2026-09-18/shift/scenes/manifest.jsonl",
+      "source": "runs/colab-20260918-answer-shift/extracted/runs/shift-validation-20260918-050713/scenes/manifest.jsonl",
+      "bytes": 213232,
+      "sha256": "1e11fcdebf3d6384a23b1c2be713dd37109c9c98201c0400cafb9245a576afcf"
+    },
+    {
+      "path": "results/2026-09-18/balanced/archive.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/archive.json",
+      "bytes": 175,
+      "sha256": "a79eff97e5280d0fd630ab6ba9febe037c6594ca817c3b77e3ed07cc2feb9b9b"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_000_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_000_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_000_d0_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_000_d0_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_000_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_000_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "b14b73f85a2b162ed1a07e665d0e45bfbc347799f0844714ebc569f74d946fec"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_000_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_000_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_001_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_001_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "b14b73f85a2b162ed1a07e665d0e45bfbc347799f0844714ebc569f74d946fec"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_001_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_001_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_001_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_001_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_002_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_002_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_002_d0_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_002_d0_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_002_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_002_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_002_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_002_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_003_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_003_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "b14b73f85a2b162ed1a07e665d0e45bfbc347799f0844714ebc569f74d946fec"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_003_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_003_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_003_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_003_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_004_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_004_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_004_d0_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_004_d0_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_004_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_004_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_004_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_004_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_005_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_005_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_005_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_005_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_006_d0_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_006_d0_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_006_d0_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_006_d0_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_006_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_006_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_006_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_006_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_007_d1_s0_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_007_d1_s0_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/balanced_007_d1_s1_identity.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/balanced_007_d1_s1_identity.json",
+      "bytes": 716,
+      "sha256": "96be0d0d2e68e9c957c940d2aed0a36e3cae33c6f39a7beb8741e455a928f4e3"
+    },
+    {
+      "path": "results/2026-09-18/balanced/frozen.jsonl",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/frozen.jsonl",
+      "bytes": 38068,
+      "sha256": "025f4065b03ab1ae36329f14620af9b1f2ecbd6bee9f64406b8fbfe20f2ec00b"
+    },
+    {
+      "path": "results/2026-09-18/balanced/interventions.jsonl",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/interventions.jsonl",
+      "bytes": 63293,
+      "sha256": "ef8b9bd9eee4229e70ff1f93effd251ab5f6795f59aaaa9cfbd7e0252e5882de"
+    },
+    {
+      "path": "results/2026-09-18/balanced/intervention_site.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/intervention_site.json",
+      "bytes": 824,
+      "sha256": "0a1c3fcbb9fa1641d7c81219a195d665310edd56fbd8394fbd8b72a7f4c931ee"
+    },
+    {
+      "path": "results/2026-09-18/balanced/native.jsonl",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/native.jsonl",
+      "bytes": 65638,
+      "sha256": "d343140c2f1740a2138fef86b4442f722f7e72b3c53fcfcd295b77136f036468"
+    },
+    {
+      "path": "results/2026-09-18/balanced/paired_analysis.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/paired_analysis.json",
+      "bytes": 19036,
+      "sha256": "3db9854ae7b4445c9d5ee1914331afe71c1e9bc04c1fd0f4a073074951339e50"
+    },
+    {
+      "path": "results/2026-09-18/balanced/plan.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/plan.json",
+      "bytes": 1091,
+      "sha256": "ec851e794130dfd9e8f1d9a337ac632d268cf7747c3df5bd6057e4128b4753a5"
+    },
+    {
+      "path": "results/2026-09-18/balanced/summary.json",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/summary.json",
+      "bytes": 10168,
+      "sha256": "9775552977f05c9e5637aa8fd93291e4662b3aa0e9c2230ad17e8a4ceeec04fa"
+    },
+    {
+      "path": "results/2026-09-18/balanced/scenes/manifest.jsonl",
+      "source": "runs/colab-20260918-balanced-intervention/extracted/runs/balanced-intervention-20260918-090000/scenes/manifest.jsonl",
+      "bytes": 28122,
+      "sha256": "fc4b0bc852a680600ea76fa443ded5e1dfa5884a7e2e1e18d81ce45691fba74d"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_000_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_000_d0_s0_baseline.json",
+      "bytes": 401,
+      "sha256": "ee06fa4b1dc642e0e3d270977e88af9ac9c3e50cbcaa0c3e2df3166659251b80"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_000_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_000_d0_s1_baseline.json",
+      "bytes": 402,
+      "sha256": "ff480e58499edaa03874d2de42004b1351ca5d774552f877f1623b08e46e5999"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_000_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_000_d1_s0_baseline.json",
+      "bytes": 405,
+      "sha256": "e80cd6779236d8dd061b4552595f868928f0f822033e2586d7e00ecaa256f40f"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_000_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_000_d1_s1_baseline.json",
+      "bytes": 403,
+      "sha256": "768aafa23390b5f9c5c8e11a440e07379db789b529535e2ff05c3bf7a04a8c05"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_001_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_001_d0_s0_baseline.json",
+      "bytes": 406,
+      "sha256": "cd6049d01c930091ceb56960e53e00b12deeb6be4ce10da301e77fa1d88e748b"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_001_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_001_d1_s0_baseline.json",
+      "bytes": 404,
+      "sha256": "208983d0a498ee629572e60a09b12182c0f879ec230cb25d97f2e53ea372a85d"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_002_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_002_d0_s0_baseline.json",
+      "bytes": 403,
+      "sha256": "ca6e4057349d4b8cede06f0e09b20defbd9e56c50ff002201bb880aa0e437a42"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_002_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_002_d0_s1_baseline.json",
+      "bytes": 404,
+      "sha256": "c1fe172f9d10c1b5727320f3638b6080f4da65456ff5bc5db44a3a56c5e08de5"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_002_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_002_d1_s0_baseline.json",
+      "bytes": 404,
+      "sha256": "be2189292a35bbe06499169179d3cbf4ef47e48a2f42c0204f7577e849799347"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_002_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_002_d1_s1_baseline.json",
+      "bytes": 402,
+      "sha256": "a4614059ff65f5a0788f817914a7bc0dc05e645390da709a183946fa0e1a7d91"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_003_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_003_d0_s0_baseline.json",
+      "bytes": 404,
+      "sha256": "4bbea5b4dbd768a68c68286dc2c0e59e8e45c420a5873f8f66508e3e9b0e5ebc"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_003_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_003_d1_s0_baseline.json",
+      "bytes": 403,
+      "sha256": "687a3869b1bb97a9c7c022d3a5783bc877ac293b291319488e7cf8a83ed5ecbb"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_004_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_004_d0_s0_baseline.json",
+      "bytes": 402,
+      "sha256": "91358701021687d72cde213e321a52408bd53ef9300ad694490bacbcedf94b70"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_004_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_004_d0_s1_baseline.json",
+      "bytes": 404,
+      "sha256": "4b96fb9a1bef8b809bdae10e0aff2ebcc10ba44cbe730c238c32b61c43707714"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_004_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_004_d1_s0_baseline.json",
+      "bytes": 404,
+      "sha256": "3f745669114407406e091a2b948cc9c88dec7c6eac6f6dac27708160cb2a9b64"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_004_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_004_d1_s1_baseline.json",
+      "bytes": 403,
+      "sha256": "597ac3a434fcfc377f10eb279d2e33614cb2ada71988de9edf7287b665acf54e"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_006_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_006_d0_s0_baseline.json",
+      "bytes": 403,
+      "sha256": "7054fd5df97315bdfd13f1f356d5f3fe6a9551e9fa77f3de1ca23d908b18c731"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_006_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_006_d0_s1_baseline.json",
+      "bytes": 404,
+      "sha256": "9bbad7ac69ff41b830c9f6e5eb4af809db0635a5a2f5f0435c1a3a4c756dab48"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_006_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_006_d1_s0_baseline.json",
+      "bytes": 400,
+      "sha256": "a17053a822bef588d2b6e5b105f551e623203533116645c988778e4eee024464"
+    },
+    {
+      "path": "results/2026-09-18/layers/balanced_006_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/balanced_006_d1_s1_baseline.json",
+      "bytes": 402,
+      "sha256": "850675c50c5d0b238ade4e7a064d074fe0147634a337d3abcb5dd868bf7136f0"
+    },
+    {
+      "path": "results/2026-09-18/layers/final_audit.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/final_audit.json",
+      "bytes": 36080,
+      "sha256": "9053cfd23408d98b12636fdd8e5ac56e9349638b2f4e404b10438f58aafd1b4b"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_0_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_0_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_0_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_0_zero.json",
+      "bytes": 7463,
+      "sha256": "6c580a40bddf41991114f75ae996dc88f40ae5be65a94c7a4daea09be059d8f7"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_14_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_14_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_14_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_14_zero.json",
+      "bytes": 5962,
+      "sha256": "9e3f03e1a70d15e2f4fda6be52f5592f140c6a54611a4c7e7bddcad29ed776b0"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_20_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_20_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_20_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_20_zero.json",
+      "bytes": 8011,
+      "sha256": "2724abb57cbcfd1e4cc3e1f7c7370e44177e94c6e7cc7038b01945c91a94cb88"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_24_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_24_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_24_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_24_zero.json",
+      "bytes": 5303,
+      "sha256": "59d687f9c7d6d30dc1ea88dae98b7ae695d1bc7fe16ed25fd417b3c2ad788557"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_27_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_27_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_27_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_27_zero.json",
+      "bytes": 6363,
+      "sha256": "da6fc0da592c457c7c89073a9f6264f72d1e70321d4fe9bf96408fe05819dd9f"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_4_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_4_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_4_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_4_zero.json",
+      "bytes": 6122,
+      "sha256": "6d33715fdd774984259fad9d9b17503ae8c815b97860205c50c5469607d37ba6"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_8_opposite_depth.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_8_opposite_depth.json",
+      "bytes": 6423,
+      "sha256": "b05b30682b44995bf04fb4b2bb15bd449f0b04a728ca2e324a3dfbd19b07750c"
+    },
+    {
+      "path": "results/2026-09-18/layers/format_layer_8_zero.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/format_layer_8_zero.json",
+      "bytes": 5348,
+      "sha256": "e54a15adfe856e8ee4785743eb7f220c46abb7cc4834977691cbd1c195d07c6f"
+    },
+    {
+      "path": "results/2026-09-18/layers/identity.jsonl",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/identity.jsonl",
+      "bytes": 23880,
+      "sha256": "02232a49ccebc11c1f8de3ab07939f5eb6cd1c82db723bcc0f76a4b5bd7659fa"
+    },
+    {
+      "path": "results/2026-09-18/layers/plan.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/plan.json",
+      "bytes": 1454,
+      "sha256": "f1d6a9558c05d189c7e7c81af9fc90707e3440e004844cb2fa3fab4b1cc46b47"
+    },
+    {
+      "path": "results/2026-09-18/layers/positive_controls.jsonl",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/positive_controls.jsonl",
+      "bytes": 3060,
+      "sha256": "bf947bc55da39f8450d54de8946aaf80b05306b906ca3405758385c3e07b892c"
+    },
+    {
+      "path": "results/2026-09-18/layers/prefix_checks.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/prefix_checks.json",
+      "bytes": 16793,
+      "sha256": "cdda7aaa3ea7b5b0791dbedd76b741ac8081c20d4980a8f7391befe6a052b0c1"
+    },
+    {
+      "path": "results/2026-09-18/layers/results.jsonl",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/results.jsonl",
+      "bytes": 201263,
+      "sha256": "455c1cb246786f0de8940a10ef12832e1f657cf0c22a267b8beb5eef92ed389e"
+    },
+    {
+      "path": "results/2026-09-18/layers/summary.json",
+      "source": "runs/colab-20260918-layer-scan/extracted/runs/layer-scan-20260918-093053/summary.json",
+      "bytes": 12585,
+      "sha256": "85fea6fc04de167b400462ff68c1072f884a97415eab180225540ae8c48c6b64"
+    },
+    {
+      "path": "results/2026-09-18/blocks/all_layers_paired.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/all_layers_paired.json",
+      "bytes": 3279,
+      "sha256": "d4e2f72eabfc946013f3052fea407598fd0e121ce40812b2e811ab3fd99f4b55"
+    },
+    {
+      "path": "results/2026-09-18/blocks/all_layers_thought_prefix_paired.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/all_layers_thought_prefix_paired.json",
+      "bytes": 3280,
+      "sha256": "a66e82219410b1eeb488e72861d4af02de3332ce6554910ea7667adade92efac"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_000_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_000_d0_s0_baseline.json",
+      "bytes": 498,
+      "sha256": "27155dafeb9d0b36a3703b33278e33a5ad128050b38496c7c870a60615d039d7"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_000_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_000_d0_s1_baseline.json",
+      "bytes": 499,
+      "sha256": "c697d2fc06b7388a9848f6e9c57509c83e7d4ccfb472c405d9c99e171819ea36"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_000_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_000_d1_s0_baseline.json",
+      "bytes": 502,
+      "sha256": "b31c72c9c8050c3bea9543a62d5219cc575dc9035d3b5687213c9cf2c8707ae7"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_000_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_000_d1_s1_baseline.json",
+      "bytes": 500,
+      "sha256": "361a46ffa8a65b7b5616bc0aaa299bd5fbf0b39a0136a3378348e026a34634c2"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_001_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_001_d0_s0_baseline.json",
+      "bytes": 503,
+      "sha256": "496e072d7a8893040c6152dc0674874cf22c7c817f070cbe2b1cc226a1899456"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_001_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_001_d1_s0_baseline.json",
+      "bytes": 501,
+      "sha256": "eed2770d90990aad37cd2d7d9ea2b74f21cce9adff7e95a9e7966295a25b9b2d"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_002_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_002_d0_s0_baseline.json",
+      "bytes": 500,
+      "sha256": "58d7a0b124c47a12c0509a929190e61893d3c217b64527df9588857779b10f55"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_002_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_002_d0_s1_baseline.json",
+      "bytes": 501,
+      "sha256": "2153025d7eaad35c1e6603192f714b9576239cdb76e19f0e1a0df078e2dfb3eb"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_002_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_002_d1_s0_baseline.json",
+      "bytes": 501,
+      "sha256": "5eb5a48be035ae534f6f1518e93fdb4538be67c3382eb3d14cc0a8cc342a2c6a"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_002_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_002_d1_s1_baseline.json",
+      "bytes": 499,
+      "sha256": "23c271a9ae4c7be251f23028dd7cc4742806f3b2897084db8319efa95c6ba7fe"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_003_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_003_d0_s0_baseline.json",
+      "bytes": 501,
+      "sha256": "810a7fbbc47083c081b5648b777a96aa8ff6f0a2fcf37cb3ca7b31ab460ce12a"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_003_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_003_d1_s0_baseline.json",
+      "bytes": 500,
+      "sha256": "43efac5427d5caf8338c46133c799122beca0c2b124aaaf30170276c0382e6c5"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_004_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_004_d0_s0_baseline.json",
+      "bytes": 499,
+      "sha256": "023a832c97a5e6fadcf77f542ef918dc58efaa790d408d48ac4d42b2e6e0ef14"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_004_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_004_d0_s1_baseline.json",
+      "bytes": 501,
+      "sha256": "57f17a280de0f9e4e2d3c648b8024f01a2722687cfd0cd9ebcf60011b8d985ac"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_004_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_004_d1_s0_baseline.json",
+      "bytes": 501,
+      "sha256": "8ebf9ff14848b5d285dfd575bba414f7560837741a60a7c02ab6e05c38ff276b"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_004_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_004_d1_s1_baseline.json",
+      "bytes": 500,
+      "sha256": "697ca5f9af3d391df849b8d5879ce477cd7698c99e7094fffa19105b8704b4ac"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_006_d0_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_006_d0_s0_baseline.json",
+      "bytes": 500,
+      "sha256": "5695291fda40648ba476f26d5c9bdf569046cb239d7692a9b63503ec77e8160f"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_006_d0_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_006_d0_s1_baseline.json",
+      "bytes": 501,
+      "sha256": "291e45dd26e5b1fbdf93efaa72a7b25b07d2c7ddf0050c8b895c89883210cec6"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_006_d1_s0_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_006_d1_s0_baseline.json",
+      "bytes": 497,
+      "sha256": "78b2f68829bc84db5559db9dd520c1705fa55a80a05fb30c2399cc6dc340c30f"
+    },
+    {
+      "path": "results/2026-09-18/blocks/balanced_006_d1_s1_baseline.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/balanced_006_d1_s1_baseline.json",
+      "bytes": 499,
+      "sha256": "2ca93fee9639002adf66e0bcd459ec350a55e742717b2253a542ce7261392f7d"
+    },
+    {
+      "path": "results/2026-09-18/blocks/early_paired.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/early_paired.json",
+      "bytes": 3279,
+      "sha256": "feced5e128fa39b738fc796dffad9d8b78cdbaf4450ddbbcf80e0ddcf9ef2039"
+    },
+    {
+      "path": "results/2026-09-18/blocks/extension_decision.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/extension_decision.json",
+      "bytes": 89,
+      "sha256": "3b82bb7bedd0ef7185f4a392224be8cc3c0af34b46f616ff3b0d340edde8e10d"
+    },
+    {
+      "path": "results/2026-09-18/blocks/final_audit.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/final_audit.json",
+      "bytes": 7150,
+      "sha256": "198061e5e0c135626eb0405aa24864c176023846b273b99340044e780db6d1aa"
+    },
+    {
+      "path": "results/2026-09-18/blocks/identity.jsonl",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/identity.jsonl",
+      "bytes": 9800,
+      "sha256": "bd67798fcaf9452b2865a6df1d8430fc99f174a3b374b6414914db4e76227544"
+    },
+    {
+      "path": "results/2026-09-18/blocks/late_paired.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/late_paired.json",
+      "bytes": 3285,
+      "sha256": "6a27872f948d7230854d52168e7d5120b42bed957542cec2a55d499d31acf1c7"
+    },
+    {
+      "path": "results/2026-09-18/blocks/middle_paired.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/middle_paired.json",
+      "bytes": 3276,
+      "sha256": "16301f9345413de1f98b42457c4dea2436eb860ca9a646cb8f36b0f4469d295c"
+    },
+    {
+      "path": "results/2026-09-18/blocks/plan.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/plan.json",
+      "bytes": 4923,
+      "sha256": "802a843a3db572e516e0aa0eab86d2fafb29b2710824100d1fcc2b294b36a929"
+    },
+    {
+      "path": "results/2026-09-18/blocks/prefix_checks.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/prefix_checks.json",
+      "bytes": 48285,
+      "sha256": "4467b6372885b2445ad5e80800b1aab75c25e402d8aa82aeea8a6c14cd7b85dc"
+    },
+    {
+      "path": "results/2026-09-18/blocks/provenance.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/provenance.json",
+      "bytes": 861,
+      "sha256": "e9d8f0229a3231593f5214dde09a2633f34a85c97644574a1dc49be8b74f745c"
+    },
+    {
+      "path": "results/2026-09-18/blocks/results.jsonl",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/results.jsonl",
+      "bytes": 443912,
+      "sha256": "a8976f546e188043cf15e80d908145365c8f987e014645378a1fc0134d17aabc"
+    },
+    {
+      "path": "results/2026-09-18/blocks/stage_summaries.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/stage_summaries.json",
+      "bytes": 10291,
+      "sha256": "744615918b56fc7658eab8d1e2b2611b78dd8c366201192a53e24f540c06ab6e"
+    },
+    {
+      "path": "results/2026-09-18/blocks/summary.json",
+      "source": "runs/colab-20260918-block-intervention/extracted/runs/block-intervention-20260918-100708/summary.json",
+      "bytes": 11349,
+      "sha256": "23991e5d1a323b91d3342c4a7d9e6877ac76b38b08dbe7f31750ed72eeb0383a"
+    }
+  ]
+}

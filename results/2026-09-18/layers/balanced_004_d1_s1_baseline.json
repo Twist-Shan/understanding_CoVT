@@ -1,0 +1,22 @@
+{
+  "id": "balanced_004_d1_s1",
+  "ids": [
+    151666,
+    13,
+    220,
+    151676,
+    151677,
+    32,
+    151678,
+    198,
+    151645
+  ],
+  "text": "<|anchor_end|>. </think><answer>A</answer>\n<|im_end|>",
+  "answer": "A",
+  "complete": true,
+  "logit_A_minus_B": 1.279642105102539,
+  "conditional_p_A": 0.7823888063430786,
+  "p_A": 0.7800713181495667,
+  "p_B": 0.21696655452251434,
+  "argmax": 32
+}

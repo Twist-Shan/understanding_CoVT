@@ -1,0 +1,1349 @@
+{
+  "baseline": {
+    "n": 20,
+    "correct": 13,
+    "emitted_A": 17,
+    "label_A": 10
+  },
+  "donor_alignment": [
+    {
+      "id": "balanced_000_d0_s0",
+      "donor": "balanced_000_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_000_d0_s1",
+      "donor": "balanced_000_d1_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_000_d1_s0",
+      "donor": "balanced_000_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_000_d1_s1",
+      "donor": "balanced_000_d0_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_001_d0_s0",
+      "donor": "balanced_001_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_001_d1_s0",
+      "donor": "balanced_001_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_002_d0_s0",
+      "donor": "balanced_002_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_002_d0_s1",
+      "donor": "balanced_002_d1_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_002_d1_s0",
+      "donor": "balanced_002_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_002_d1_s1",
+      "donor": "balanced_002_d0_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_003_d0_s0",
+      "donor": "balanced_003_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_003_d1_s0",
+      "donor": "balanced_003_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_004_d0_s0",
+      "donor": "balanced_004_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_004_d0_s1",
+      "donor": "balanced_004_d1_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_004_d1_s0",
+      "donor": "balanced_004_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_004_d1_s1",
+      "donor": "balanced_004_d0_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_006_d0_s0",
+      "donor": "balanced_006_d1_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_006_d0_s1",
+      "donor": "balanced_006_d1_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_006_d1_s0",
+      "donor": "balanced_006_d0_s0",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    },
+    {
+      "id": "balanced_006_d1_s1",
+      "donor": "balanced_006_d0_s1",
+      "prompt_equal": true,
+      "prefix_length_equal": true,
+      "depth_positions_equal": true
+    }
+  ],
+  "details": [
+    {
+      "layer": 0,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.0,
+      "max_delta_p_A": 0.0,
+      "min_full_AB_mass": 0.9959703087806702,
+      "max_full_AB_mass": 0.9981856402009726,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d0_s0",
+        "label": "A",
+        "answer": "A",
+        "delta_p_A": 0.0,
+        "conditional_p_A": 0.9403513073921204
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 0,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.031078338623046875,
+      "max_delta_p_A": 0.004207193851470947,
+      "min_full_AB_mass": 0.996045857667923,
+      "max_full_AB_mass": 0.9982663858681917,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 0.0008226955930391947,
+        "ci95": [
+          0.00039226313432057697,
+          0.0011789649724960327
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s0",
+        "label": "B",
+        "answer": "B",
+        "delta_p_A": 0.004207193851470947,
+        "conditional_p_A": 0.3480965793132782
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 4,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.00043487548828125,
+      "max_delta_p_A": 5.5670738220214844e-05,
+      "min_full_AB_mass": 0.9959680140018463,
+      "max_full_AB_mass": 0.9981855787336826,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": -1.039355993270874e-06,
+        "ci95": [
+          -1.40133003393809e-05,
+          1.1934588352839151e-05
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_004_d1_s0",
+        "label": "B",
+        "answer": "A",
+        "delta_p_A": -5.5670738220214844e-05,
+        "conditional_p_A": 0.7506288290023804
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 4,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 7.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 8.0,
+      "max_delta_logit": 0.8856258392333984,
+      "max_delta_p_A": 0.13633519411087036,
+      "min_full_AB_mass": 0.9961290955543518,
+      "max_full_AB_mass": 0.9977973625063896,
+      "format_audit": {
+        "complete_answer_tags": 0,
+        "strict_flips": 0,
+        "unique_letter_flips": 3,
+        "ambiguous_AB": 12,
+        "no_AB": 0,
+        "unique_letter_count": 8
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": -0.010112193723519644,
+        "ci95": [
+          -0.033525181313355766,
+          0.019011010726292927
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s1",
+        "label": "B",
+        "answer": "A",
+        "delta_p_A": -0.13633519411087036,
+        "conditional_p_A": 0.5964905023574829
+      },
+      "changes": [
+        {
+          "id": "balanced_000_d0_s0",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nA\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nA\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nB</answer></answer> B\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nB</answer></answer> B\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nA\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "answer": "B",
+          "label": "A",
+          "text": "保守\nA\nB\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "answer": "B",
+          "label": "B",
+          "text": "保守\nB\nB\n<|im_end|>"
+        }
+      ],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 2.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 5.0
+        }
+      }
+    },
+    {
+      "layer": 8,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.0004749298095703125,
+      "max_delta_p_A": 6.276369094848633e-05,
+      "min_full_AB_mass": 0.9959690570831299,
+      "max_full_AB_mass": 0.9981846679002047,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": -4.84536091486613e-06,
+        "ci95": [
+          -1.9637122750282285e-05,
+          1.2211501598358154e-05
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_003_d1_s0",
+        "label": "A",
+        "answer": "A",
+        "delta_p_A": -6.276369094848633e-05,
+        "conditional_p_A": 0.8433639407157898
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 8,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0.0,
+      "invalid": 20,
+      "incomplete": 0,
+      "correct": 0.0,
+      "max_delta_logit": 0.05121612548828125,
+      "max_delta_p_A": 0.0041838884353637695,
+      "min_full_AB_mass": 0.9954677522182465,
+      "max_full_AB_mass": 0.9978386163711548,
+      "format_audit": {
+        "complete_answer_tags": 0,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 20,
+        "unique_letter_count": 0
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 0.0002693086862564087,
+        "ci95": [
+          -0.0002737220997611682,
+          0.0008123467365900675
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_003_d1_s0",
+        "label": "A",
+        "answer": null,
+        "delta_p_A": -0.0041838884353637695,
+        "conditional_p_A": 0.8392428159713745
+      },
+      "changes": [
+        {
+          "id": "balanced_000_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": ".text\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "\n<|im_end|>"
+        }
+      ],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 10.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 10.0
+        }
+      }
+    },
+    {
+      "layer": 14,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.0008220672607421875,
+      "max_delta_p_A": 7.092952728271484e-05,
+      "min_full_AB_mass": 0.9959681332111359,
+      "max_full_AB_mass": 0.9981849640607834,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 7.218370834986369e-06,
+        "ci95": [
+          -2.3792187372843423e-06,
+          1.7431285232305524e-05
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s1",
+        "label": "B",
+        "answer": "A",
+        "delta_p_A": 7.092952728271484e-05,
+        "conditional_p_A": 0.732896625995636
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 14,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0.0,
+      "invalid": 20,
+      "incomplete": 0,
+      "correct": 0.0,
+      "max_delta_logit": 0.4864997863769531,
+      "max_delta_p_A": 0.1163175106048584,
+      "min_full_AB_mass": 0.9954085648059845,
+      "max_full_AB_mass": 0.9979498945176601,
+      "format_audit": {
+        "complete_answer_tags": 0,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 7,
+        "no_AB": 0,
+        "unique_letter_count": 13
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 0.027174440522988636,
+        "ci95": [
+          0.016710636516412098,
+          0.03850848972797394
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s0",
+        "label": "B",
+        "answer": null,
+        "delta_p_A": 0.1163175106048584,
+        "conditional_p_A": 0.46020689606666565
+      },
+      "changes": [
+        {
+          "id": "balanced_000_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " A or B.</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " A</answer>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " A</answer>\n<|im_end|>"
+        }
+      ],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 10.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 10.0
+        }
+      }
+    },
+    {
+      "layer": 20,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.0003337860107421875,
+      "max_delta_p_A": 3.230571746826172e-05,
+      "min_full_AB_mass": 0.9959689378738403,
+      "max_full_AB_mass": 0.9981847777962685,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 1.4230608940124512e-06,
+        "ci95": [
+          -3.3254424730936685e-06,
+          4.808108011881511e-06
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s0",
+        "label": "B",
+        "answer": "B",
+        "delta_p_A": -3.230571746826172e-05,
+        "conditional_p_A": 0.343857079744339
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 20,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0.0,
+      "invalid": 17,
+      "incomplete": 0,
+      "correct": 3.0,
+      "max_delta_logit": 0.23672866821289062,
+      "max_delta_p_A": 0.052024632692337036,
+      "min_full_AB_mass": 0.9960967898368835,
+      "max_full_AB_mass": 0.9981868118047714,
+      "format_audit": {
+        "complete_answer_tags": 3,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 17,
+        "unique_letter_count": 3
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": -0.01361467440923055,
+        "ci95": [
+          -0.015832466383775074,
+          -0.011594596008459726
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_003_d0_s0",
+        "label": "B",
+        "answer": null,
+        "delta_p_A": -0.052024632692337036,
+        "conditional_p_A": 0.30111029744148254
+      },
+      "changes": [
+        {
+          "id": "balanced_000_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "气息\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+        }
+      ],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 9.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 8.0
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.0004482269287109375,
+      "max_delta_p_A": 3.731250762939453e-05,
+      "min_full_AB_mass": 0.9959700107574463,
+      "max_full_AB_mass": 0.9981854893267155,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 6.4944227536519366e-06,
+        "ci95": [
+          3.998478253682454e-07,
+          1.3103087743123373e-05
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_003_d1_s0",
+        "label": "A",
+        "answer": "A",
+        "delta_p_A": -3.731250762939453e-05,
+        "conditional_p_A": 0.8433893918991089
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0.0,
+      "invalid": 20,
+      "incomplete": 0,
+      "correct": 0.0,
+      "max_delta_logit": 0.2560863494873047,
+      "max_delta_p_A": 0.03812819719314575,
+      "min_full_AB_mass": 0.9955753982067108,
+      "max_full_AB_mass": 0.9978181533515453,
+      "format_audit": {
+        "complete_answer_tags": 0,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 20,
+        "unique_letter_count": 0
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 0.005171755949656169,
+        "ci95": [
+          0.0012735956658919655,
+          0.009068052967389424
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s0",
+        "label": "B",
+        "answer": null,
+        "delta_p_A": 0.03812819719314575,
+        "conditional_p_A": 0.382017582654953
+      },
+      "changes": [
+        {
+          "id": "balanced_000_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d0_s1",
+          "answer": null,
+          "label": "A",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "answer": null,
+          "label": "B",
+          "text": "<|im_end|>"
+        }
+      ],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 10.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 10.0
+        }
+      }
+    },
+    {
+      "layer": 27,
+      "condition": "opposite_depth",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.000331878662109375,
+      "max_delta_p_A": 3.361701965332031e-05,
+      "min_full_AB_mass": 0.9959707260131836,
+      "max_full_AB_mass": 0.998185284435749,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 5.25514284769694e-06,
+        "ci95": [
+          1.0324021180470784e-06,
+          9.638567765553793e-06
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s1",
+        "label": "B",
+        "answer": "A",
+        "delta_p_A": 3.361701965332031e-05,
+        "conditional_p_A": 0.7328593134880066
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    },
+    {
+      "layer": 27,
+      "condition": "zero",
+      "n": 20,
+      "valid_flips": 0,
+      "invalid": 0,
+      "incomplete": 0,
+      "correct": 13.0,
+      "max_delta_logit": 0.11654472351074219,
+      "max_delta_p_A": 0.009242415428161621,
+      "min_full_AB_mass": 0.996651291847229,
+      "max_full_AB_mass": 0.9985258411616087,
+      "format_audit": {
+        "complete_answer_tags": 20,
+        "strict_flips": 0,
+        "unique_letter_flips": 0,
+        "ambiguous_AB": 0,
+        "no_AB": 0,
+        "unique_letter_count": 20
+      },
+      "identity_logit_noise": 0.0,
+      "identity_full_logits_max_abs": 0.0,
+      "toward_opposite_label": {
+        "mean": 3.2673279444376625e-05,
+        "ci95": [
+          -0.0019176049157977103,
+          0.0017204657196998596
+        ],
+        "families": 6
+      },
+      "largest_probability_change": {
+        "id": "balanced_000_d1_s1",
+        "label": "B",
+        "answer": "A",
+        "delta_p_A": 0.009242415428161621,
+        "conditional_p_A": 0.7420681118965149
+      },
+      "changes": [],
+      "cue_counts": {
+        "aligned": {
+          "n": 10,
+          "changed": 0.0
+        },
+        "conflict": {
+          "n": 10,
+          "changed": 0.0
+        }
+      }
+    }
+  ],
+  "identity_exact": 140,
+  "prefix_max_abs": 0.00048828125
+}

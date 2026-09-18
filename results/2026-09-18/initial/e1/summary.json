@@ -1,0 +1,46 @@
+{
+  "pairs": 2,
+  "excluded_pairs": 2,
+  "scope": "Decoder branch only. Effects are not answer-use evidence.",
+  "conditions": {
+    "depth_swap": {
+      "directed_state_effect_Fa": {
+        "mean": -0.0028297656557327855,
+        "ci95": null,
+        "families": 1
+      },
+      "directed_state_effect_Fb": {
+        "mean": -0.0026180990071857924,
+        "ci95": null,
+        "families": 1
+      },
+      "abs_state_effect_Fa": {
+        "mean": 0.0028297656557327855,
+        "ci95": null,
+        "families": 1
+      },
+      "interaction": {
+        "mean": 0.00021166664854699313,
+        "ci95": null,
+        "families": 1
+      }
+    },
+    "nuisance": {
+      "abs_state_effect_Fa": {
+        "mean": 0.004095993709462453,
+        "ci95": null,
+        "families": 1
+      },
+      "abs_state_effect_Fb": {
+        "mean": 0.001630321313966121,
+        "ci95": null,
+        "families": 1
+      },
+      "interaction": {
+        "mean": 0.002465672395496332,
+        "ci95": null,
+        "families": 1
+      }
+    }
+  }
+}

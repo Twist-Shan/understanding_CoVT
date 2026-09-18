@@ -1,0 +1,17 @@
+name: CPU pilot tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e '.[test]'
+      - run: python scripts/verify_results.py
+      - run: python -m pytest -q
+      - run: covt-pilot smoke --out runs/ci-smoke

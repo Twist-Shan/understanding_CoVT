@@ -1,0 +1,13 @@
+{
+  "families": 10,
+  "seed": 18,
+  "images": 40,
+  "calibration_families": 2,
+  "pilot_families": 8,
+  "model_dtype": "float32",
+  "attention": "eager",
+  "expert_device": "cpu",
+  "shuffle_repeats": 5,
+  "decision": "FP32 chosen after four-image cache precision diagnostic; no E0 gate or tolerance relaxed.",
+  "scope": "Exploratory terminal-decoder controls; no answer-path causal claim."
+}

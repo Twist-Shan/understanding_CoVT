@@ -1,0 +1,195 @@
+{
+  "source": "/content/covt-pilot/runs/balanced-intervention-20260918-090000",
+  "source_sha256": "d343140c2f1740a2138fef86b4442f722f7e72b3c53fcfcd295b77136f036468",
+  "targets": [
+    "balanced_000_d0_s0",
+    "balanced_000_d0_s1",
+    "balanced_000_d1_s0",
+    "balanced_000_d1_s1",
+    "balanced_001_d0_s0",
+    "balanced_001_d1_s0",
+    "balanced_002_d0_s0",
+    "balanced_002_d0_s1",
+    "balanced_002_d1_s0",
+    "balanced_002_d1_s1",
+    "balanced_003_d0_s0",
+    "balanced_003_d1_s0",
+    "balanced_004_d0_s0",
+    "balanced_004_d0_s1",
+    "balanced_004_d1_s0",
+    "balanced_004_d1_s1",
+    "balanced_006_d0_s0",
+    "balanced_006_d0_s1",
+    "balanced_006_d1_s0",
+    "balanced_006_d1_s1"
+  ],
+  "donors": {
+    "balanced_000_d0_s0": {
+      "opposite_depth": "balanced_000_d1_s0",
+      "same_depth": "balanced_002_d0_s0"
+    },
+    "balanced_000_d0_s1": {
+      "opposite_depth": "balanced_000_d1_s1",
+      "same_depth": "balanced_002_d0_s1"
+    },
+    "balanced_000_d1_s0": {
+      "opposite_depth": "balanced_000_d0_s0",
+      "same_depth": "balanced_002_d1_s0"
+    },
+    "balanced_000_d1_s1": {
+      "opposite_depth": "balanced_000_d0_s1",
+      "same_depth": "balanced_002_d1_s1"
+    },
+    "balanced_001_d0_s0": {
+      "opposite_depth": "balanced_001_d1_s0",
+      "same_depth": "balanced_003_d0_s0"
+    },
+    "balanced_001_d1_s0": {
+      "opposite_depth": "balanced_001_d0_s0",
+      "same_depth": "balanced_003_d1_s0"
+    },
+    "balanced_002_d0_s0": {
+      "opposite_depth": "balanced_002_d1_s0",
+      "same_depth": "balanced_004_d0_s0"
+    },
+    "balanced_002_d0_s1": {
+      "opposite_depth": "balanced_002_d1_s1",
+      "same_depth": "balanced_004_d0_s1"
+    },
+    "balanced_002_d1_s0": {
+      "opposite_depth": "balanced_002_d0_s0",
+      "same_depth": "balanced_004_d1_s0"
+    },
+    "balanced_002_d1_s1": {
+      "opposite_depth": "balanced_002_d0_s1",
+      "same_depth": "balanced_004_d1_s1"
+    },
+    "balanced_003_d0_s0": {
+      "opposite_depth": "balanced_003_d1_s0",
+      "same_depth": "balanced_001_d0_s0"
+    },
+    "balanced_003_d1_s0": {
+      "opposite_depth": "balanced_003_d0_s0",
+      "same_depth": "balanced_001_d1_s0"
+    },
+    "balanced_004_d0_s0": {
+      "opposite_depth": "balanced_004_d1_s0",
+      "same_depth": "balanced_006_d0_s0"
+    },
+    "balanced_004_d0_s1": {
+      "opposite_depth": "balanced_004_d1_s1",
+      "same_depth": "balanced_006_d0_s1"
+    },
+    "balanced_004_d1_s0": {
+      "opposite_depth": "balanced_004_d0_s0",
+      "same_depth": "balanced_006_d1_s0"
+    },
+    "balanced_004_d1_s1": {
+      "opposite_depth": "balanced_004_d0_s1",
+      "same_depth": "balanced_006_d1_s1"
+    },
+    "balanced_006_d0_s0": {
+      "opposite_depth": "balanced_006_d1_s0",
+      "same_depth": "balanced_000_d0_s0"
+    },
+    "balanced_006_d0_s1": {
+      "opposite_depth": "balanced_006_d1_s1",
+      "same_depth": "balanced_000_d0_s1"
+    },
+    "balanced_006_d1_s0": {
+      "opposite_depth": "balanced_006_d0_s0",
+      "same_depth": "balanced_000_d1_s0"
+    },
+    "balanced_006_d1_s1": {
+      "opposite_depth": "balanced_006_d0_s1",
+      "same_depth": "balanced_000_d1_s1"
+    }
+  },
+  "stages": [
+    [
+      "early",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pads"
+    ],
+    [
+      "middle",
+      [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "pads"
+    ],
+    [
+      "late",
+      [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "pads"
+    ],
+    [
+      "all_layers",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "pads"
+    ]
+  ],
+  "conditional_extension": "If all_layers opposite_depth yields no valid changed answer, add all 28 layers at all generated thought-prefix positions from prompt end through last depth pad.",
+  "interventions": "Simultaneous clamping to each corresponding donor layer input, reapplied during every full-prefix recomputation. No old KV and no donor answer tokens.",
+  "same_depth_control": "Other scene family, same true A/B label, depth_order, size_order and cue; deterministic cyclic ID selection. Family identity remains a control limitation.",
+  "probability_scope": "Teacher-forced original continuation immediately before A/B answer; distinct from free rollout.",
+  "limitations": "Six selected scene families, one seed, exploratory repeated interventions and donor reuse; no equivalence claim. Expanded thought-prefix effect is not depth-specific."
+}

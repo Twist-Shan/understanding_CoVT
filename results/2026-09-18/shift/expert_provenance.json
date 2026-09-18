@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "a7ea19fa0ed99244e67b624c72b8580b7e9553043245905be58796a608eb9345",
+  "code_revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+  "feature_layers": [
+    4,
+    11,
+    17,
+    23
+  ],
+  "resize": [
+    256,
+    256
+  ],
+  "input_convention": "upstream PIL RGB array passed directly to image2tensor"
+}

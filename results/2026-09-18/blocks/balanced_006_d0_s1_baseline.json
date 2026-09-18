@@ -1,0 +1,26 @@
+{
+  "id": "balanced_006_d0_s1",
+  "ids": [
+    151666,
+    13,
+    220,
+    151676,
+    151677,
+    32,
+    151678,
+    198,
+    151645
+  ],
+  "text": "<|anchor_end|>. </think><answer>A</answer>\n<|im_end|>",
+  "answer": "A",
+  "format_valid": true,
+  "ambiguous_AB": false,
+  "unique_letter": "A",
+  "legacy_answer": "A",
+  "complete": true,
+  "logit_A_minus_B": 3.719766616821289,
+  "conditional_p_A": 0.9763339757919312,
+  "p_A": 0.9743708372116089,
+  "p_B": 0.023618383333086967,
+  "argmax": 32
+}

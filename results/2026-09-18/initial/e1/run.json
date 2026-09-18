@@ -1,0 +1,16 @@
+{
+  "kind": "e1_visualization_only",
+  "e0_run": "/content/covt-pilot/runs/colab-e0-20260918-032255/e0",
+  "e0_run_sha256": "49daf9e702152a08e9284655403398652d0655d438d8469b6496664304c437d0",
+  "calibration": {
+    "direction": -1,
+    "scale": 137.54537963867188,
+    "tie_margin": 0.05,
+    "families": [
+      "scene_00000"
+    ],
+    "examples": 3,
+    "calibration_accuracy": 1.0
+  },
+  "scope": "Terminal conditional decoder factorial; no answer recomputation or shared-state claim."
+}

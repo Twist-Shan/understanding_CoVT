@@ -1,0 +1,17 @@
+{
+  "kind": "e1_visualization_only",
+  "e0_run": "/content/covt-pilot/runs/followup-fp32-20260918-043002/e0",
+  "e0_run_sha256": "b0dce7699d1cd9bfff346a0d2ffac1dcb69cd0f2e85deadd94c7dc59a835813a",
+  "calibration": {
+    "direction": -1,
+    "scale": 151.8531951904297,
+    "tie_margin": 0.05,
+    "families": [
+      "scene_00000",
+      "scene_00001"
+    ],
+    "examples": 8,
+    "calibration_accuracy": 1.0
+  },
+  "scope": "Terminal conditional decoder factorial; no answer recomputation or shared-state claim."
+}

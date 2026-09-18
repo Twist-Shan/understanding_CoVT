@@ -1,0 +1,48 @@
+{
+  "identity_pass": true,
+  "baseline": {
+    "answer": "B",
+    "text": "<|anchor_end|>. </think><answer>B</answer>\n<|im_end|>",
+    "ids": [
+      151666,
+      13,
+      220,
+      151676,
+      151677,
+      33,
+      151678,
+      198,
+      151645
+    ],
+    "complete": true
+  },
+  "identity": {
+    "answer": "B",
+    "text": "<|anchor_end|>. </think><answer>B</answer>\n<|im_end|>",
+    "ids": [
+      151666,
+      13,
+      220,
+      151676,
+      151677,
+      33,
+      151678,
+      198,
+      151645
+    ],
+    "complete": true
+  },
+  "expected": [
+    151666,
+    13,
+    220,
+    151676,
+    151677,
+    33,
+    151678,
+    198,
+    151645
+  ],
+  "hidden_max_abs": 0.0,
+  "logits_max_abs": 0.0
+}

@@ -1,0 +1,351 @@
+{
+  "run_dir": "/content/covt-pilot/runs/colab-e0-20260918-032255",
+  "archive_name": "covt-e0-e1-results-20260918-032737.zip",
+  "archive_bytes": 293227867,
+  "archive_sha256": "3bdc120ea78fa3cbe06d56532617e5c5795c1961d05f929eb1775c58a788b468",
+  "e0_summary": {
+    "attempted": 12,
+    "eligible": 10,
+    "failures_or_ineligible": 2,
+    "status": "scored",
+    "shared_ancestor_verified": false,
+    "joint_errors": {
+      "n": 7,
+      "counts": {
+        "decoder_correct__answer_wrong": 5,
+        "decoder_correct__answer_correct": 2
+      }
+    },
+    "decoder_accuracy": {
+      "mean": 1,
+      "ci95": [
+        1,
+        1
+      ],
+      "families": 2
+    },
+    "expert_accuracy": {
+      "mean": 1,
+      "ci95": [
+        1,
+        1
+      ],
+      "families": 2
+    },
+    "answer_accuracy": {
+      "mean": 0.29166666666666663,
+      "ci95": [
+        0.25,
+        0.3333333333333333
+      ],
+      "families": 2
+    },
+    "evaluation_attempted": 8,
+    "scope": "Accuracy is conditional on E0 eligibility; failures and invalid answers are separately retained."
+  },
+  "e0_calibration": {
+    "decoder": {
+      "direction": -1,
+      "scale": 137.54537963867188,
+      "tie_margin": 0.05,
+      "families": [
+        "scene_00000"
+      ],
+      "examples": 3,
+      "calibration_accuracy": 1
+    },
+    "expert": {
+      "direction": -1,
+      "scale": 135.90097045898438,
+      "tie_margin": 0.05,
+      "families": [
+        "scene_00000"
+      ],
+      "examples": 3,
+      "calibration_accuracy": 1
+    }
+  },
+  "e0_run": {
+    "kind": "e0_native",
+    "manifest": "/content/covt-pilot/runs/colab-e0-20260918-032255/scenes/manifest.jsonl",
+    "manifest_sha256": "d13a7bb260c2a2544538da6220ca21c1219b4d802cadc405d4d79d65f5ff8c79",
+    "audit": {
+      "model_id": "Wakals/CoVT-7B-depth",
+      "requested_revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+      "checked_at": "2026-09-18T03:22:57.486810+00:00",
+      "errors": [],
+      "status": "tensor_names_present",
+      "runtime_verified": false,
+      "model_revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "added_tokens.json",
+        "chat_template.json",
+        "config.json",
+        "generation_config.json",
+        "merges.txt",
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors",
+        "model.safetensors.index.json",
+        "preprocessor_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.json"
+      ],
+      "architectures": [
+        "Qwen2_5_VLForConditionalGeneration"
+      ],
+      "required_keys": [
+        "depth_token_generator.0.weight",
+        "depth_token_generator.0.bias",
+        "depth_token_generator.2.weight",
+        "depth_token_generator.2.bias"
+      ],
+      "missing_keys": [],
+      "other_depth_keys": [
+        "depth_cross_attention.in_proj_bias",
+        "depth_cross_attention.in_proj_weight",
+        "depth_cross_attention.out_proj.bias",
+        "depth_cross_attention.out_proj.weight",
+        "depth_projection.bias",
+        "depth_projection.weight",
+        "depth_query_vectors"
+      ],
+      "decoder_weight_map": {
+        "depth_token_generator.0.weight": "model-00004-of-00004.safetensors",
+        "depth_token_generator.0.bias": "model-00004-of-00004.safetensors",
+        "depth_token_generator.2.weight": "model-00004-of-00004.safetensors",
+        "depth_token_generator.2.bias": "model-00004-of-00004.safetensors"
+      },
+      "code": {
+        "revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+        "path": "train/src/training/covt_qwen2_5_vl.py",
+        "url": "https://raw.githubusercontent.com/Wakals/CoVT/c3497a325b0fdda4d91ade456a01b0e325ee3150/train/src/training/covt_qwen2_5_vl.py",
+        "sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44"
+      }
+    },
+    "decoder": {
+      "model_id": "Wakals/CoVT-7B-depth",
+      "model_revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+      "file_sha256": "a8a5637a818bd93baafa58147e0c674fe55dce92c3ccdd213a0378ce8a213395",
+      "tensors": {
+        "depth_token_generator.0.weight": {
+          "shard": "model-00004-of-00004.safetensors",
+          "shape": [
+            3584,
+            3584
+          ],
+          "dtype": "torch.float16"
+        },
+        "depth_token_generator.0.bias": {
+          "shard": "model-00004-of-00004.safetensors",
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.float16"
+        },
+        "depth_token_generator.2.weight": {
+          "shard": "model-00004-of-00004.safetensors",
+          "shape": [
+            1024,
+            3584
+          ],
+          "dtype": "torch.float16"
+        },
+        "depth_token_generator.2.bias": {
+          "shard": "model-00004-of-00004.safetensors",
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float16"
+        }
+      },
+      "code": {
+        "revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+        "path": "train/src/training/covt_qwen2_5_vl.py",
+        "url": "https://raw.githubusercontent.com/Wakals/CoVT/c3497a325b0fdda4d91ade456a01b0e325ee3150/train/src/training/covt_qwen2_5_vl.py",
+        "sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44"
+      },
+      "transport": "user-provided local HF snapshot",
+      "runtime_verified": false
+    },
+    "reference_parity": {
+      "source_sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44",
+      "max_absolute_error": 0,
+      "passed": true,
+      "scope": "reconstruction kernel on synthetic tensors; not checkpoint/runtime restoration"
+    },
+    "device": "cuda",
+    "expert_device": "cuda",
+    "dtype": "bfloat16",
+    "attention": "eager",
+    "max_new_tokens": 192,
+    "atol": 0.02,
+    "rtol": 0.01,
+    "versions": {
+      "torch": "2.5.1",
+      "transformers": "4.50.1",
+      "numpy": "2.4.6",
+      "Pillow": "11.3.0"
+    },
+    "shared_ancestor_verified": false,
+    "scope": "E0 only; no answer-path causal claim",
+    "expert": {
+      "checkpoint_sha256": "a7ea19fa0ed99244e67b624c72b8580b7e9553043245905be58796a608eb9345",
+      "code_revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+      "feature_layers": [
+        4,
+        11,
+        17,
+        23
+      ],
+      "resize": [
+        256,
+        256
+      ],
+      "input_convention": "upstream PIL RGB array passed directly to image2tensor"
+    },
+    "model": {
+      "model_id": "Wakals/CoVT-7B-depth",
+      "revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+      "dtype": "bfloat16",
+      "attention": "eager",
+      "depth_token_id": 151669,
+      "unexpected_checkpoint_keys": [
+        "depth_cross_attention.in_proj_bias",
+        "depth_cross_attention.in_proj_weight",
+        "depth_cross_attention.out_proj.bias",
+        "depth_cross_attention.out_proj.weight",
+        "depth_projection.bias",
+        "depth_projection.weight",
+        "depth_query_vectors",
+        "depth_token_generator.0.bias",
+        "depth_token_generator.0.weight",
+        "depth_token_generator.2.bias",
+        "depth_token_generator.2.weight"
+      ],
+      "hidden_state_semantics": "post-final-norm at the depth-pad input positions; no position shift"
+    }
+  },
+  "e1_summary": {
+    "pairs": 2,
+    "excluded_pairs": 2,
+    "scope": "Decoder branch only. Effects are not answer-use evidence.",
+    "conditions": {
+      "depth_swap": {
+        "directed_state_effect_Fa": {
+          "mean": -0.0028297656557327855,
+          "ci95": null,
+          "families": 1
+        },
+        "directed_state_effect_Fb": {
+          "mean": -0.0026180990071857924,
+          "ci95": null,
+          "families": 1
+        },
+        "abs_state_effect_Fa": {
+          "mean": 0.0028297656557327855,
+          "ci95": null,
+          "families": 1
+        },
+        "interaction": {
+          "mean": 0.00021166664854699313,
+          "ci95": null,
+          "families": 1
+        }
+      },
+      "nuisance": {
+        "abs_state_effect_Fa": {
+          "mean": 0.004095993709462453,
+          "ci95": null,
+          "families": 1
+        },
+        "abs_state_effect_Fb": {
+          "mean": 0.001630321313966121,
+          "ci95": null,
+          "families": 1
+        },
+        "interaction": {
+          "mean": 0.002465672395496332,
+          "ci95": null,
+          "families": 1
+        }
+      }
+    }
+  },
+  "decoder_provenance": {
+    "model_id": "Wakals/CoVT-7B-depth",
+    "model_revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+    "file_sha256": "a8a5637a818bd93baafa58147e0c674fe55dce92c3ccdd213a0378ce8a213395",
+    "tensors": {
+      "depth_token_generator.0.weight": {
+        "shard": "model-00004-of-00004.safetensors",
+        "shape": [
+          3584,
+          3584
+        ],
+        "dtype": "torch.float16"
+      },
+      "depth_token_generator.0.bias": {
+        "shard": "model-00004-of-00004.safetensors",
+        "shape": [
+          3584
+        ],
+        "dtype": "torch.float16"
+      },
+      "depth_token_generator.2.weight": {
+        "shard": "model-00004-of-00004.safetensors",
+        "shape": [
+          1024,
+          3584
+        ],
+        "dtype": "torch.float16"
+      },
+      "depth_token_generator.2.bias": {
+        "shard": "model-00004-of-00004.safetensors",
+        "shape": [
+          1024
+        ],
+        "dtype": "torch.float16"
+      }
+    },
+    "code": {
+      "revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+      "path": "train/src/training/covt_qwen2_5_vl.py",
+      "url": "https://raw.githubusercontent.com/Wakals/CoVT/c3497a325b0fdda4d91ade456a01b0e325ee3150/train/src/training/covt_qwen2_5_vl.py",
+      "sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44"
+    },
+    "transport": "user-provided local HF snapshot",
+    "runtime_verified": false
+  },
+  "doctor": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+    "packages": {
+      "numpy": "2.4.6",
+      "Pillow": "11.3.0",
+      "torch": "2.5.1",
+      "torchvision": "0.20.1",
+      "transformers": "4.50.1",
+      "safetensors": "0.8.0",
+      "accelerate": "1.15.0"
+    },
+    "cuda_available": true,
+    "gpus": [
+      {
+        "name": "NVIDIA A100-SXM4-40GB",
+        "memory_gib": 39.4935302734375
+      }
+    ],
+    "model_runtime_version_match": true,
+    "note": "Full checkpoint/E0 inference is not validated by doctor; original runtime pin is transformers 4.50.1."
+  },
+  "expert_download": {
+    "model_id": "depth-anything/Depth-Anything-V2-Large",
+    "revision": "cbbb86a30ce19b5684b7a05155dc7e6cbc7685b9"
+  },
+  "pip_freeze": "accelerate==1.15.0\ncertifi==2026.7.22\ncharset-normalizer==3.5.1\n-e file:///content/covt-pilot\nfilelock==4.0.0\nfsspec==2026.7.0\nhf-xet==1.6.0\nhuggingface-hub==0.36.2\nidna==3.20\niniconfig==2.3.0\njinja2==3.1.6\nmarkupsafe==3.0.3\nmpmath==1.3.0\nnetworkx==3.6.1\nnumpy==2.4.6\nnvidia-cublas-cu12==12.4.5.8\nnvidia-cuda-cupti-cu12==12.4.127\nnvidia-cuda-nvrtc-cu12==12.4.127\nnvidia-cuda-runtime-cu12==12.4.127\nnvidia-cudnn-cu12==9.1.0.70\nnvidia-cufft-cu12==11.2.1.3\nnvidia-curand-cu12==10.3.5.147\nnvidia-cusolver-cu12==11.6.1.9\nnvidia-cusparse-cu12==12.3.1.170\nnvidia-nccl-cu12==2.21.5\nnvidia-nvjitlink-cu12==12.4.127\nnvidia-nvtx-cu12==12.4.127\nopencv-python==4.14.0.94\npackaging==26.3\npillow==11.3.0\npluggy==1.6.0\npsutil==7.2.2\npygments==2.21.0\npytest==8.4.2\npyyaml==6.0.3\nregex==2026.9.10\nrequests==2.34.2\nsafetensors==0.8.0\nsympy==1.13.1\ntokenizers==0.21.4\ntorch==2.5.1\ntorchvision==0.20.1\ntqdm==4.70.1\ntransformers==4.50.1\ntriton==3.1.0\ntyping-extensions==4.16.0\nurllib3==2.8.0\n"
+}

@@ -1,0 +1,6 @@
+{
+  "source_sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44",
+  "max_absolute_error": 0.0,
+  "passed": true,
+  "scope": "reconstruction kernel on synthetic tensors; not checkpoint/runtime restoration"
+}

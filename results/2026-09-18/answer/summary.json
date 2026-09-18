@@ -1,0 +1,308 @@
+{
+  "scope": "Behavioral diagnostics only; paired variants are not independent families.",
+  "models": {
+    "covt": {
+      "apparent_size": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "label_left": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "large_label_left": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "large_plain_near": {
+        "correct": {
+          "mean": 0.6875,
+          "ci95": [
+            0.4375,
+            0.9375
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "original_depth": {
+        "correct": {
+          "mean": 0.375,
+          "ci95": [
+            0.125,
+            0.6875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "plain_far": {
+        "correct": {
+          "mean": 0.5,
+          "ci95": [
+            0.125,
+            0.875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "plain_near": {
+        "correct": {
+          "mean": 0.6875,
+          "ci95": [
+            0.5625,
+            0.875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "side_near": {
+        "correct": {
+          "mean": 0.5625,
+          "ci95": [
+            0.25,
+            0.875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      }
+    },
+    "backbone": {
+      "apparent_size": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "label_left": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "large_label_left": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "large_plain_near": {
+        "correct": {
+          "mean": 0.625,
+          "ci95": [
+            0.375,
+            0.8125
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "original_depth": {
+        "correct": {
+          "mean": 0.5,
+          "ci95": [
+            0.1875,
+            0.8125
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "plain_far": {
+        "correct": {
+          "mean": 0.3125,
+          "ci95": [
+            0.0625,
+            0.5625
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "plain_near": {
+        "correct": {
+          "mean": 0.6875,
+          "ci95": [
+            0.5,
+            0.875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      },
+      "side_near": {
+        "correct": {
+          "mean": 0.4375,
+          "ci95": [
+            0.1875,
+            0.6875
+          ],
+          "families": 8
+        },
+        "invalid": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 8
+        }
+      }
+    }
+  },
+  "cache_audit": {
+    "covt": {
+      "tested": 8,
+      "mismatched": 0
+    },
+    "backbone": {
+      "tested": 8,
+      "mismatched": 0
+    }
+  },
+  "truncated": 0
+}

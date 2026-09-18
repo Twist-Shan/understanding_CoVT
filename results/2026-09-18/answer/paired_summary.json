@@ -1,0 +1,34 @@
+{
+  "covt": {
+    "near_minus_original": {
+      "mean": 0.3125,
+      "ci95": [
+        0.0,
+        0.5625
+      ],
+      "families": 8
+    },
+    "near_far_opposite": 9,
+    "near_far_n": 16,
+    "near_label_swap_flip": 3,
+    "label_swap_families": 8,
+    "side_label_swap_invariant": 7,
+    "old_original_token_matches": 16,
+    "old_original_n": 16
+  },
+  "backbone": {
+    "near_minus_original": {
+      "mean": 0.1875,
+      "ci95": [
+        -0.0625,
+        0.5
+      ],
+      "families": 8
+    },
+    "near_far_opposite": 10,
+    "near_far_n": 16,
+    "near_label_swap_flip": 3,
+    "label_swap_families": 8,
+    "side_label_swap_invariant": 5
+  }
+}

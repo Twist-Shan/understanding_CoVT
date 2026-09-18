@@ -1,0 +1,452 @@
+{
+  "early": {
+    "opposite_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.00010758638381958008,
+      "min_AB_mass": 0.9959708750247955,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 4.361321528752645e-05,
+          "ci95": [
+            3.0470391114552815e-05,
+            5.6756039460500084e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -2.808868885040283e-06,
+          "ci95": [
+            -2.635767062505086e-05,
+            2.160420020421346e-05
+          ],
+          "families": 6
+        }
+      }
+    },
+    "same_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 8.821487426757812e-05,
+      "min_AB_mass": 0.9959689676761627,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 2.778942386309306e-05,
+          "ci95": [
+            1.757591962814331e-05,
+            3.839780886967977e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -2.479801575342814e-06,
+          "ci95": [
+            -1.1666057010491688e-05,
+            6.361740330855037e-06
+          ],
+          "families": 6
+        }
+      }
+    },
+    "paired": {
+      "flip_difference": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "directional_probability_difference": {
+        "mean": -3.2906730969746906e-07,
+        "ci95": [
+          -2.3476779460906982e-05,
+          2.53009299437205e-05
+        ],
+        "families": 6
+      }
+    }
+  },
+  "middle": {
+    "opposite_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.00011819601058959961,
+      "min_AB_mass": 0.9959692656993866,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 4.854674140612284e-05,
+          "ci95": [
+            3.368780016899109e-05,
+            6.273885567982991e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": 2.4574498335520425e-06,
+          "ci95": [
+            -2.1118919054667155e-05,
+            2.6525805393854728e-05
+          ],
+          "families": 6
+        }
+      }
+    },
+    "same_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 7.241964340209961e-05,
+      "min_AB_mass": 0.9959722459316254,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 2.559646964073181e-05,
+          "ci95": [
+            1.4502555131912231e-05,
+            3.669038414955139e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -3.1826396783192954e-06,
+          "ci95": [
+            -9.623666604359945e-06,
+            4.2735909422238365e-06
+          ],
+          "families": 6
+        }
+      }
+    },
+    "paired": {
+      "flip_difference": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "directional_probability_difference": {
+        "mean": 5.640089511871338e-06,
+        "ci95": [
+          -1.4667709668477377e-05,
+          2.5895734628041584e-05
+        ],
+        "families": 6
+      }
+    }
+  },
+  "late": {
+    "opposite_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 4.929304122924805e-05,
+      "min_AB_mass": 0.9959702491760254,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 1.8073866764704388e-05,
+          "ci95": [
+            8.985400199890137e-06,
+            2.880766987800598e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": 3.200024366378784e-06,
+          "ci95": [
+            1.3634562492370605e-06,
+            5.78040877978007e-06
+          ],
+          "families": 6
+        }
+      }
+    },
+    "same_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 5.227327346801758e-05,
+      "min_AB_mass": 0.9959701597690582,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 1.9278377294540405e-05,
+          "ci95": [
+            1.3787299394607544e-05,
+            2.481540044148763e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": 7.711350917816162e-07,
+          "ci95": [
+            -4.202127456665039e-06,
+            5.754331747690837e-06
+          ],
+          "families": 6
+        }
+      }
+    },
+    "paired": {
+      "flip_difference": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "directional_probability_difference": {
+        "mean": 2.428889274597168e-06,
+        "ci95": [
+          -1.9371509552001953e-06,
+          6.8893035252888995e-06
+        ],
+        "families": 6
+      }
+    }
+  },
+  "all_layers": {
+    "opposite_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.00018477439880371094,
+      "min_AB_mass": 0.9959727227687836,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 9.389594197273254e-05,
+          "ci95": [
+            6.752957900365193e-05,
+            0.00011947875221570332
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -2.247591813405355e-07,
+          "ci95": [
+            -3.658924251794815e-05,
+            3.71591188013552e-05
+          ],
+          "families": 6
+        }
+      }
+    },
+    "same_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.00011396408081054688,
+      "min_AB_mass": 0.9959697723388672,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 3.270308176676432e-05,
+          "ci95": [
+            2.1509826183319092e-05,
+            4.43384051322937e-05
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -6.154179573059082e-06,
+          "ci95": [
+            -1.8248955408732097e-05,
+            1.183400551478068e-05
+          ],
+          "families": 6
+        }
+      }
+    },
+    "paired": {
+      "flip_difference": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "directional_probability_difference": {
+        "mean": 5.929420391718547e-06,
+        "ci95": [
+          -2.6516616344451904e-05,
+          3.6557515462239586e-05
+        ],
+        "families": 6
+      }
+    }
+  },
+  "all_layers_thought_prefix": {
+    "opposite_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.0004718303680419922,
+      "min_AB_mass": 0.9959862530231476,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 0.00012563417355219522,
+          "ci95": [
+            7.946789264678955e-05,
+            0.00018875052531560263
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": 1.944353183110555e-05,
+          "ci95": [
+            -5.576014518737793e-05,
+            0.00011051880816618591
+          ],
+          "families": 6
+        }
+      }
+    },
+    "same_depth": {
+      "n": 20,
+      "valid_flips": 0.0,
+      "correct": 13.0,
+      "invalid": 0,
+      "incomplete": 0,
+      "max_abs_delta_p_A": 0.00042194128036499023,
+      "min_AB_mass": 0.9959644973278046,
+      "statistics": {
+        "valid_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "abs_delta_p_A": {
+          "mean": 0.00013342748085657755,
+          "ci95": [
+            8.130551626284918e-05,
+            0.00019056554883718478
+          ],
+          "families": 6
+        },
+        "delta_toward_opposite_label": {
+          "mean": -1.829614241917928e-05,
+          "ci95": [
+            -8.426519731680552e-05,
+            5.6321422259012856e-05
+          ],
+          "families": 6
+        }
+      }
+    },
+    "paired": {
+      "flip_difference": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 6
+      },
+      "directional_probability_difference": {
+        "mean": 3.773967425028483e-05,
+        "ci95": [
+          -5.733221769332886e-05,
+          0.00013622107605139382
+        ],
+        "families": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "seed": 18,
+  "families": 10,
+  "size": 336,
+  "purpose": "instrumentation pilot; not confirmatory evidence",
+  "splits": [
+    "calibration",
+    "pilot"
+  ],
+  "variants_per_family": 4
+}

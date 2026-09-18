@@ -1,0 +1,122 @@
+[
+  {
+    "id": "balanced_000_d0_s0",
+    "family": "balanced_000",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -3.93986701965332e-05
+  },
+  {
+    "id": "balanced_000_d0_s1",
+    "family": "balanced_000",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 4.553794860839844e-05
+  },
+  {
+    "id": "balanced_000_d1_s0",
+    "family": "balanced_000",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -5.185604095458984e-06
+  },
+  {
+    "id": "balanced_000_d1_s1",
+    "family": "balanced_000",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 2.9087066650390625e-05
+  },
+  {
+    "id": "balanced_001_d0_s0",
+    "family": "balanced_001",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -1.9729137420654297e-05
+  },
+  {
+    "id": "balanced_001_d1_s0",
+    "family": "balanced_001",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 6.884336471557617e-05
+  },
+  {
+    "id": "balanced_002_d0_s0",
+    "family": "balanced_002",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -7.486343383789062e-05
+  },
+  {
+    "id": "balanced_002_d0_s1",
+    "family": "balanced_002",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 3.0159950256347656e-05
+  },
+  {
+    "id": "balanced_002_d1_s0",
+    "family": "balanced_002",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -0.00010323524475097656
+  },
+  {
+    "id": "balanced_002_d1_s1",
+    "family": "balanced_002",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 1.2576580047607422e-05
+  },
+  {
+    "id": "balanced_003_d0_s0",
+    "family": "balanced_003",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 2.0891427993774414e-05
+  },
+  {
+    "id": "balanced_003_d1_s0",
+    "family": "balanced_003",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 7.230043411254883e-05
+  },
+  {
+    "id": "balanced_004_d0_s0",
+    "family": "balanced_004",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -4.4226646423339844e-05
+  },
+  {
+    "id": "balanced_004_d0_s1",
+    "family": "balanced_004",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -7.62939453125e-06
+  },
+  {
+    "id": "balanced_004_d1_s0",
+    "family": "balanced_004",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -6.794929504394531e-06
+  },
+  {
+    "id": "balanced_004_d1_s1",
+    "family": "balanced_004",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 8.088350296020508e-05
+  },
+  {
+    "id": "balanced_006_d0_s0",
+    "family": "balanced_006",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -5.704164505004883e-05
+  },
+  {
+    "id": "balanced_006_d0_s1",
+    "family": "balanced_006",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 3.0159950256347656e-05
+  },
+  {
+    "id": "balanced_006_d1_s0",
+    "family": "balanced_006",
+    "flip_difference": 0.0,
+    "directional_probability_difference": -8.589029312133789e-05
+  },
+  {
+    "id": "balanced_006_d1_s1",
+    "family": "balanced_006",
+    "flip_difference": 0.0,
+    "directional_probability_difference": 4.661083221435547e-05
+  }
+]

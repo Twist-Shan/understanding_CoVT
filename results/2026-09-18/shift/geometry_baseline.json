@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "shift_00000_base",
+    "family": "shift_00000",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      17341,
+      6538
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00000_depth_swap",
+    "family": "shift_00000",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      8288,
+      13899
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00000_nuisance",
+    "family": "shift_00000",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      17341,
+      6538
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00000_label_swap",
+    "family": "shift_00000",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      6538,
+      17341
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00001_base",
+    "family": "shift_00001",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      1582,
+      16780
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00001_depth_swap",
+    "family": "shift_00001",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      2969,
+      8891
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00001_nuisance",
+    "family": "shift_00001",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      1582,
+      16780
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00001_label_swap",
+    "family": "shift_00001",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      16780,
+      1582
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00002_base",
+    "family": "shift_00002",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      3203,
+      17689
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00002_depth_swap",
+    "family": "shift_00002",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      5936,
+      9268
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00002_nuisance",
+    "family": "shift_00002",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      3203,
+      17689
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00002_label_swap",
+    "family": "shift_00002",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      17689,
+      3203
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00003_base",
+    "family": "shift_00003",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      4363,
+      2492
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00003_depth_swap",
+    "family": "shift_00003",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      1622,
+      6124
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00003_nuisance",
+    "family": "shift_00003",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      4363,
+      2492
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00003_label_swap",
+    "family": "shift_00003",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      2492,
+      4363
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00004_base",
+    "family": "shift_00004",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      13542,
+      9562
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00004_depth_swap",
+    "family": "shift_00004",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      7701,
+      16651
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00004_nuisance",
+    "family": "shift_00004",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      13542,
+      9562
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00004_label_swap",
+    "family": "shift_00004",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      9562,
+      13542
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00005_base",
+    "family": "shift_00005",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      2880,
+      11193
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00005_depth_swap",
+    "family": "shift_00005",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      5260,
+      6096
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00005_nuisance",
+    "family": "shift_00005",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      2880,
+      11193
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00005_label_swap",
+    "family": "shift_00005",
+    "stratum": "size_variation",
+    "native_audit": true,
+    "apparent_area": [
+      11193,
+      2880
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00006_base",
+    "family": "shift_00006",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      2433,
+      4975
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00006_depth_swap",
+    "family": "shift_00006",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      4419,
+      2719
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00006_nuisance",
+    "family": "shift_00006",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      2433,
+      4975
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00006_label_swap",
+    "family": "shift_00006",
+    "stratum": "ellipsoids",
+    "native_audit": true,
+    "apparent_area": [
+      4975,
+      2433
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00007_base",
+    "family": "shift_00007",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      20449,
+      8798
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00007_depth_swap",
+    "family": "shift_00007",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      8798,
+      20449
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00007_nuisance",
+    "family": "shift_00007",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      20449,
+      8798
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00007_label_swap",
+    "family": "shift_00007",
+    "stratum": "boxes",
+    "native_audit": true,
+    "apparent_area": [
+      8798,
+      20449
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00008_base",
+    "family": "shift_00008",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      5120,
+      1459
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00008_depth_swap",
+    "family": "shift_00008",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      2155,
+      3531
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00008_nuisance",
+    "family": "shift_00008",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      5120,
+      1459
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00008_label_swap",
+    "family": "shift_00008",
+    "stratum": "partial_occlusion",
+    "native_audit": true,
+    "apparent_area": [
+      1459,
+      5120
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00009_base",
+    "family": "shift_00009",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      7606,
+      16685
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00009_depth_swap",
+    "family": "shift_00009",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      15261,
+      8371
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00009_nuisance",
+    "family": "shift_00009",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      7606,
+      16685
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00009_label_swap",
+    "family": "shift_00009",
+    "stratum": "camera_variation",
+    "native_audit": true,
+    "apparent_area": [
+      16685,
+      7606
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00010_base",
+    "family": "shift_00010",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2535,
+      17649
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00010_depth_swap",
+    "family": "shift_00010",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6737,
+      6550
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00010_nuisance",
+    "family": "shift_00010",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2535,
+      17649
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00010_label_swap",
+    "family": "shift_00010",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      17649,
+      2535
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00011_base",
+    "family": "shift_00011",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      5897,
+      9079
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00011_depth_swap",
+    "family": "shift_00011",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      2804,
+      19266
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00011_nuisance",
+    "family": "shift_00011",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      5897,
+      9079
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00011_label_swap",
+    "family": "shift_00011",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      9079,
+      5897
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00012_base",
+    "family": "shift_00012",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      16770,
+      5131
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00012_depth_swap",
+    "family": "shift_00012",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      9551,
+      8800
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00012_nuisance",
+    "family": "shift_00012",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      16770,
+      5131
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00012_label_swap",
+    "family": "shift_00012",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5131,
+      16770
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00013_base",
+    "family": "shift_00013",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2875,
+      5279
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00013_depth_swap",
+    "family": "shift_00013",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5246,
+      2898
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00013_nuisance",
+    "family": "shift_00013",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2875,
+      5279
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00013_label_swap",
+    "family": "shift_00013",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5279,
+      2875
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00014_base",
+    "family": "shift_00014",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      1585,
+      6847
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00014_depth_swap",
+    "family": "shift_00014",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      3619,
+      2992
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00014_nuisance",
+    "family": "shift_00014",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      1585,
+      6847
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00014_label_swap",
+    "family": "shift_00014",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6847,
+      1585
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00015_base",
+    "family": "shift_00015",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      23577,
+      2879
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00015_depth_swap",
+    "family": "shift_00015",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      8003,
+      8439
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00015_nuisance",
+    "family": "shift_00015",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      23577,
+      2879
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00015_label_swap",
+    "family": "shift_00015",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2879,
+      23577
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00016_base",
+    "family": "shift_00016",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      6846,
+      2471
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00016_depth_swap",
+    "family": "shift_00016",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3242,
+      5178
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00016_nuisance",
+    "family": "shift_00016",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      6846,
+      2471
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00016_label_swap",
+    "family": "shift_00016",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      2471,
+      6846
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00017_base",
+    "family": "shift_00017",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5069,
+      8474
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00017_depth_swap",
+    "family": "shift_00017",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      14375,
+      2994
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00017_nuisance",
+    "family": "shift_00017",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5069,
+      8474
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00017_label_swap",
+    "family": "shift_00017",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      8474,
+      5069
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00018_base",
+    "family": "shift_00018",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      854,
+      7477
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00018_depth_swap",
+    "family": "shift_00018",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2678,
+      2790
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00018_nuisance",
+    "family": "shift_00018",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      854,
+      7477
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00018_label_swap",
+    "family": "shift_00018",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      7477,
+      854
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00019_base",
+    "family": "shift_00019",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      9603,
+      5007
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00019_depth_swap",
+    "family": "shift_00019",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4039,
+      11918
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00019_nuisance",
+    "family": "shift_00019",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      9603,
+      5007
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00019_label_swap",
+    "family": "shift_00019",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      5007,
+      9603
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00020_base",
+    "family": "shift_00020",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4345,
+      2168
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00020_depth_swap",
+    "family": "shift_00020",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2123,
+      4446
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00020_nuisance",
+    "family": "shift_00020",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4345,
+      2168
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00020_label_swap",
+    "family": "shift_00020",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2168,
+      4345
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00021_base",
+    "family": "shift_00021",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3251,
+      2734
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00021_depth_swap",
+    "family": "shift_00021",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      7924,
+      1116
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00021_nuisance",
+    "family": "shift_00021",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3251,
+      2734
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00021_label_swap",
+    "family": "shift_00021",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      2734,
+      3251
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00022_base",
+    "family": "shift_00022",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      7445,
+      4540
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00022_depth_swap",
+    "family": "shift_00022",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      17424,
+      1995
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00022_nuisance",
+    "family": "shift_00022",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      7445,
+      4540
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00022_label_swap",
+    "family": "shift_00022",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      4540,
+      7445
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00023_base",
+    "family": "shift_00023",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5511,
+      2140
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00023_depth_swap",
+    "family": "shift_00023",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2905,
+      4296
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00023_nuisance",
+    "family": "shift_00023",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5511,
+      2140
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00023_label_swap",
+    "family": "shift_00023",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2140,
+      5511
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00024_base",
+    "family": "shift_00024",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6903,
+      1971
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00024_depth_swap",
+    "family": "shift_00024",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2724,
+      4997
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00024_nuisance",
+    "family": "shift_00024",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6903,
+      1971
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00024_label_swap",
+    "family": "shift_00024",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      1971,
+      6903
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00025_base",
+    "family": "shift_00025",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2930,
+      9973
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00025_depth_swap",
+    "family": "shift_00025",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      7569,
+      3839
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00025_nuisance",
+    "family": "shift_00025",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2930,
+      9973
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00025_label_swap",
+    "family": "shift_00025",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      9973,
+      2930
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00026_base",
+    "family": "shift_00026",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      1226,
+      6747
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00026_depth_swap",
+    "family": "shift_00026",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3572,
+      2349
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00026_nuisance",
+    "family": "shift_00026",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      1226,
+      6747
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00026_label_swap",
+    "family": "shift_00026",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      6747,
+      1226
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00027_base",
+    "family": "shift_00027",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      17422,
+      7793
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00027_depth_swap",
+    "family": "shift_00027",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      7181,
+      19044
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00027_nuisance",
+    "family": "shift_00027",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      17422,
+      7793
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00027_label_swap",
+    "family": "shift_00027",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      7793,
+      17422
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00028_base",
+    "family": "shift_00028",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3728,
+      2562
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00028_depth_swap",
+    "family": "shift_00028",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      1910,
+      4821
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00028_nuisance",
+    "family": "shift_00028",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3728,
+      2562
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00028_label_swap",
+    "family": "shift_00028",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2562,
+      3728
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00029_base",
+    "family": "shift_00029",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      10221,
+      8907
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00029_depth_swap",
+    "family": "shift_00029",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      23036,
+      4006
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00029_nuisance",
+    "family": "shift_00029",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      10221,
+      8907
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00029_label_swap",
+    "family": "shift_00029",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      8907,
+      10221
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00030_base",
+    "family": "shift_00030",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2837,
+      7837
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00030_depth_swap",
+    "family": "shift_00030",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6891,
+      3221
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00030_nuisance",
+    "family": "shift_00030",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2837,
+      7837
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00030_label_swap",
+    "family": "shift_00030",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      7837,
+      2837
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00031_base",
+    "family": "shift_00031",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      25715,
+      7361
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00031_depth_swap",
+    "family": "shift_00031",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      10570,
+      20023
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00031_nuisance",
+    "family": "shift_00031",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      25715,
+      7361
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00031_label_swap",
+    "family": "shift_00031",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      7361,
+      25715
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00032_base",
+    "family": "shift_00032",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5391,
+      1955
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00032_depth_swap",
+    "family": "shift_00032",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      2131,
+      5021
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00032_nuisance",
+    "family": "shift_00032",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5391,
+      1955
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00032_label_swap",
+    "family": "shift_00032",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      1955,
+      5391
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00033_base",
+    "family": "shift_00033",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3041,
+      3536
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00033_depth_swap",
+    "family": "shift_00033",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      6105,
+      1575
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00033_nuisance",
+    "family": "shift_00033",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3041,
+      3536
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00033_label_swap",
+    "family": "shift_00033",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3536,
+      3041
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00034_base",
+    "family": "shift_00034",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      3727,
+      12380
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00034_depth_swap",
+    "family": "shift_00034",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      7922,
+      5805
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00034_nuisance",
+    "family": "shift_00034",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      3727,
+      12380
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00034_label_swap",
+    "family": "shift_00034",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      12380,
+      3727
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00035_base",
+    "family": "shift_00035",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4962,
+      6298
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00035_depth_swap",
+    "family": "shift_00035",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2146,
+      14708
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00035_nuisance",
+    "family": "shift_00035",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4962,
+      6298
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00035_label_swap",
+    "family": "shift_00035",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      6298,
+      4962
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00036_base",
+    "family": "shift_00036",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      8554,
+      3487
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00036_depth_swap",
+    "family": "shift_00036",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3779,
+      7887
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00036_nuisance",
+    "family": "shift_00036",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      8554,
+      3487
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00036_label_swap",
+    "family": "shift_00036",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3487,
+      8554
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00037_base",
+    "family": "shift_00037",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      2081,
+      18496
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00037_depth_swap",
+    "family": "shift_00037",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      4472,
+      8333
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00037_nuisance",
+    "family": "shift_00037",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      2081,
+      18496
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00037_label_swap",
+    "family": "shift_00037",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      18496,
+      2081
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00038_base",
+    "family": "shift_00038",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      778,
+      7339
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00038_depth_swap",
+    "family": "shift_00038",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2517,
+      2542
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00038_nuisance",
+    "family": "shift_00038",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      778,
+      7339
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00038_label_swap",
+    "family": "shift_00038",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      7339,
+      778
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00039_base",
+    "family": "shift_00039",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      7095,
+      2669
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00039_depth_swap",
+    "family": "shift_00039",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      3169,
+      5938
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00039_nuisance",
+    "family": "shift_00039",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      7095,
+      2669
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00039_label_swap",
+    "family": "shift_00039",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      2669,
+      7095
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00040_base",
+    "family": "shift_00040",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      10087,
+      1252
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00040_depth_swap",
+    "family": "shift_00040",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4661,
+      2691
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00040_nuisance",
+    "family": "shift_00040",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      10087,
+      1252
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00040_label_swap",
+    "family": "shift_00040",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      1252,
+      10087
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00041_base",
+    "family": "shift_00041",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      6818,
+      11842
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00041_depth_swap",
+    "family": "shift_00041",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      13150,
+      6113
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00041_nuisance",
+    "family": "shift_00041",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      6818,
+      11842
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00041_label_swap",
+    "family": "shift_00041",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      11842,
+      6818
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00042_base",
+    "family": "shift_00042",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5358,
+      4765
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00042_depth_swap",
+    "family": "shift_00042",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      12404,
+      2132
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00042_nuisance",
+    "family": "shift_00042",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      5358,
+      4765
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00042_label_swap",
+    "family": "shift_00042",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      4765,
+      5358
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00043_base",
+    "family": "shift_00043",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5589,
+      2590
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00043_depth_swap",
+    "family": "shift_00043",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2341,
+      6017
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00043_nuisance",
+    "family": "shift_00043",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      5589,
+      2590
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00043_label_swap",
+    "family": "shift_00043",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      2590,
+      5589
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00044_base",
+    "family": "shift_00044",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      12656,
+      4961
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00044_depth_swap",
+    "family": "shift_00044",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      5065,
+      12430
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00044_nuisance",
+    "family": "shift_00044",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      12656,
+      4961
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00044_label_swap",
+    "family": "shift_00044",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      4961,
+      12656
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00045_base",
+    "family": "shift_00045",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      5401,
+      13722
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00045_depth_swap",
+    "family": "shift_00045",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      14412,
+      5144
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00045_nuisance",
+    "family": "shift_00045",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      5401,
+      13722
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00045_label_swap",
+    "family": "shift_00045",
+    "stratum": "size_variation",
+    "native_audit": false,
+    "apparent_area": [
+      13722,
+      5401
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00046_base",
+    "family": "shift_00046",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3676,
+      7113
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00046_depth_swap",
+    "family": "shift_00046",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      9382,
+      2814
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00046_nuisance",
+    "family": "shift_00046",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      3676,
+      7113
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00046_label_swap",
+    "family": "shift_00046",
+    "stratum": "ellipsoids",
+    "native_audit": false,
+    "apparent_area": [
+      7113,
+      3676
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00047_base",
+    "family": "shift_00047",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      9269,
+      4523
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00047_depth_swap",
+    "family": "shift_00047",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      4790,
+      8788
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00047_nuisance",
+    "family": "shift_00047",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      9269,
+      4523
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00047_label_swap",
+    "family": "shift_00047",
+    "stratum": "boxes",
+    "native_audit": false,
+    "apparent_area": [
+      4523,
+      9269
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00048_base",
+    "family": "shift_00048",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3135,
+      3812
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00048_depth_swap",
+    "family": "shift_00048",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      1475,
+      6866
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00048_nuisance",
+    "family": "shift_00048",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3135,
+      3812
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00048_label_swap",
+    "family": "shift_00048",
+    "stratum": "partial_occlusion",
+    "native_audit": false,
+    "apparent_area": [
+      3812,
+      3135
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00049_base",
+    "family": "shift_00049",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      9382,
+      8280
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00049_depth_swap",
+    "family": "shift_00049",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      20331,
+      3876
+    ],
+    "bigger_is_nearer": 1.0
+  },
+  {
+    "id": "shift_00049_nuisance",
+    "family": "shift_00049",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      9382,
+      8280
+    ],
+    "bigger_is_nearer": 0.0
+  },
+  {
+    "id": "shift_00049_label_swap",
+    "family": "shift_00049",
+    "stratum": "camera_variation",
+    "native_audit": false,
+    "apparent_area": [
+      8280,
+      9382
+    ],
+    "bigger_is_nearer": 0.0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "source_url": "https://wakalsprojectpage.github.io/covt-website/static/pdf/paper.pdf",
+  "source_pdf": "docs\\references\\covt-paper.pdf",
+  "pdf_sha256": "9bb06297bca18d60a08d963757c8f6d942a1d99db5ed6026a355bafc4f5ac93c",
+  "attribution": "Yiming Qin et al., Chain-of-Visual-Thought. Figure rights belong to the original authors.",
+  "figures": [
+    {
+      "figure": 1,
+      "pdf_page": 1,
+      "crop_normalized": [
+        0.093,
+        0.307,
+        0.91,
+        0.453
+      ],
+      "image": "covt_figure_1.png",
+      "sha256": "db6d5c21435953c10c0827efb0abcbecaddc6ee13d3b02905e61350747c1df02"
+    },
+    {
+      "figure": 2,
+      "pdf_page": 2,
+      "crop_normalized": [
+        0.093,
+        0.09,
+        0.91,
+        0.256
+      ],
+      "image": "covt_figure_2.png",
+      "sha256": "d0951ff7a3c8a7973a6e1128b86731a0356c0e1366ea2d6eaa90de1705745132"
+    },
+    {
+      "figure": 3,
+      "pdf_page": 4,
+      "crop_normalized": [
+        0.093,
+        0.09,
+        0.91,
+        0.33
+      ],
+      "image": "covt_figure_3.png",
+      "sha256": "f5f02b20003543c391d6a05b5b3bcdd841a5a094ab18705b0acface49836f0b2"
+    }
+  ],
+  "builder": "scripts/build_paper_intro_report.py",
+  "new_model_experiments": false
+}

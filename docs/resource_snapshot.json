@@ -1,0 +1,70 @@
+{
+  "model_id": "Wakals/CoVT-7B-depth",
+  "model_revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+  "checked_at": "2026-09-17T12:55:03.927769+00:00",
+  "architectures": [
+    "Qwen2_5_VLForConditionalGeneration"
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "added_tokens.json",
+    "chat_template.json",
+    "config.json",
+    "generation_config.json",
+    "merges.txt",
+    "model-00001-of-00004.safetensors",
+    "model-00002-of-00004.safetensors",
+    "model-00003-of-00004.safetensors",
+    "model-00004-of-00004.safetensors",
+    "model.safetensors.index.json",
+    "preprocessor_config.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "required_keys": [
+    "depth_token_generator.0.weight",
+    "depth_token_generator.0.bias",
+    "depth_token_generator.2.weight",
+    "depth_token_generator.2.bias"
+  ],
+  "missing_keys": [],
+  "other_depth_keys": [
+    "depth_cross_attention.in_proj_bias",
+    "depth_cross_attention.in_proj_weight",
+    "depth_cross_attention.out_proj.bias",
+    "depth_cross_attention.out_proj.weight",
+    "depth_projection.bias",
+    "depth_projection.weight",
+    "depth_query_vectors"
+  ],
+  "status": "tensor_names_present",
+  "runtime_verified": false,
+  "errors": [],
+  "prior_download_errors": [
+    {
+      "stage": "model_metadata",
+      "message": "The read operation timed out"
+    },
+    {
+      "stage": "code_metadata",
+      "message": "The read operation timed out"
+    }
+  ],
+  "audit_mode": "cached pinned metadata; source Git blob verified",
+  "decoder_weight_map": {
+    "depth_token_generator.0.weight": "model-00004-of-00004.safetensors",
+    "depth_token_generator.0.bias": "model-00004-of-00004.safetensors",
+    "depth_token_generator.2.weight": "model-00004-of-00004.safetensors",
+    "depth_token_generator.2.bias": "model-00004-of-00004.safetensors"
+  },
+  "code": {
+    "revision": "c3497a325b0fdda4d91ade456a01b0e325ee3150",
+    "path": "train/src/training/covt_qwen2_5_vl.py",
+    "url": "https://raw.githubusercontent.com/Wakals/CoVT/c3497a325b0fdda4d91ade456a01b0e325ee3150/train/src/training/covt_qwen2_5_vl.py",
+    "git_blob": "a0b774fdecdea00fd79f026d20450585cd46d825",
+    "sha256": "8764990efc31c283c99121586e724fe0dcab24ae643c37297f6fd0dc64ffbc44"
+  }
+}

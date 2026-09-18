@@ -1,0 +1,684 @@
+{
+  "all_attempted": {
+    "all": {
+      "n": 32,
+      "language_correct": 25,
+      "language_invalid": 0,
+      "eligible": 26,
+      "fixed_correct": 30.0,
+      "expert_correct": 26.0
+    },
+    "aligned": {
+      "n": 16,
+      "language_correct": 12,
+      "language_invalid": 0,
+      "eligible": 14,
+      "fixed_correct": 16.0,
+      "expert_correct": 16.0
+    },
+    "conflict": {
+      "n": 16,
+      "language_correct": 13,
+      "language_invalid": 0,
+      "eligible": 12,
+      "fixed_correct": 14.0,
+      "expert_correct": 10.0
+    }
+  },
+  "matched_donors": {
+    "all": {
+      "n": 20,
+      "rows": [
+        {
+          "id": "balanced_000_d0_s0",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_000_d0_s1",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "family": "balanced_001",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "family": "balanced_001",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "family": "balanced_003",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "family": "balanced_003",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d0_s1",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        }
+      ],
+      "statistics": {
+        "opposite_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "flip_difference": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "opposite_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        }
+      }
+    },
+    "aligned": {
+      "n": 10,
+      "rows": [
+        {
+          "id": "balanced_000_d0_s0",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_000_d1_s1",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_001_d0_s0",
+          "family": "balanced_001",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d0_s0",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d1_s1",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_003_d0_s0",
+          "family": "balanced_003",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d0_s0",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d1_s1",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d0_s0",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d1_s1",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        }
+      ],
+      "statistics": {
+        "opposite_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "flip_difference": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "opposite_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        }
+      }
+    },
+    "conflict": {
+      "n": 10,
+      "rows": [
+        {
+          "id": "balanced_000_d0_s1",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_000_d1_s0",
+          "family": "balanced_000",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "B",
+          "same_answer": "B",
+          "baseline_answer": "B",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_001_d1_s0",
+          "family": "balanced_001",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d0_s1",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_002_d1_s0",
+          "family": "balanced_002",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_003_d1_s0",
+          "family": "balanced_003",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d0_s1",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_004_d1_s0",
+          "family": "balanced_004",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d0_s1",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        },
+        {
+          "id": "balanced_006_d1_s0",
+          "family": "balanced_006",
+          "opposite_flip": 0.0,
+          "same_flip": 0.0,
+          "flip_difference": 0.0,
+          "opposite_answer": "A",
+          "same_answer": "A",
+          "baseline_answer": "A",
+          "opposite_decoder_changed": 0.0,
+          "same_decoder_changed": 0.0
+        }
+      ],
+      "statistics": {
+        "opposite_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_flip": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "flip_difference": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "opposite_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        },
+        "same_decoder_changed": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 6
+        }
+      }
+    }
+  },
+  "failures": [
+    {
+      "id": "balanced_001_d0_s1",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    },
+    {
+      "id": "balanced_003_d0_s1",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    },
+    {
+      "id": "balanced_005_d0_s0",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    },
+    {
+      "id": "balanced_005_d0_s1",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    },
+    {
+      "id": "balanced_007_d0_s0",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    },
+    {
+      "id": "balanced_007_d0_s1",
+      "reason": "Expected exactly 4 generated depth pads; found 0. Do not insert or silently select slots.",
+      "cached_equal": true
+    }
+  ],
+  "identity_failures": []
+}

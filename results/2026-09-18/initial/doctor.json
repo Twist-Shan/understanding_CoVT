@@ -1,0 +1,21 @@
+{
+  "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.4.6",
+    "Pillow": "11.3.0",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "transformers": "4.50.1",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0"
+  },
+  "cuda_available": true,
+  "gpus": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memory_gib": 39.4935302734375
+    }
+  ],
+  "model_runtime_version_match": true,
+  "note": "Full checkpoint/E0 inference is not validated by doctor; original runtime pin is transformers 4.50.1."
+}

@@ -1,0 +1,22 @@
+{
+  "source_run": "/content/covt-pilot/runs/followup-fp32-20260918-043002",
+  "families": 8,
+  "images": 16,
+  "cases_per_model": 128,
+  "selection": "All pilot families, base and label_swap; no accuracy filtering.",
+  "models": {
+    "covt": {
+      "model_id": "Wakals/CoVT-7B-depth",
+      "revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4"
+    },
+    "backbone": {
+      "model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5"
+    }
+  },
+  "dtype": "float32",
+  "attention": "eager",
+  "max_new_tokens": 192,
+  "calibration": "No prompt selection or tuning on these results. Exploratory diagnostic.",
+  "cache_audit": "First base example for each of eight tasks, cached vs uncached."
+}

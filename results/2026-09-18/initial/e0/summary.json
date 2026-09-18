@@ -1,0 +1,40 @@
+{
+  "attempted": 12,
+  "eligible": 10,
+  "failures_or_ineligible": 2,
+  "status": "scored",
+  "shared_ancestor_verified": false,
+  "joint_errors": {
+    "n": 7,
+    "counts": {
+      "decoder_correct__answer_wrong": 5,
+      "decoder_correct__answer_correct": 2
+    }
+  },
+  "decoder_accuracy": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "families": 2
+  },
+  "expert_accuracy": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "families": 2
+  },
+  "answer_accuracy": {
+    "mean": 0.29166666666666663,
+    "ci95": [
+      0.25,
+      0.3333333333333333
+    ],
+    "families": 2
+  },
+  "evaluation_attempted": 8,
+  "scope": "Accuracy is conditional on E0 eligibility; failures and invalid answers are separately retained."
+}

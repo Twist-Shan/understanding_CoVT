@@ -1,0 +1,22 @@
+{
+  "decoder": {
+    "direction": -1,
+    "scale": 137.54537963867188,
+    "tie_margin": 0.05,
+    "families": [
+      "scene_00000"
+    ],
+    "examples": 3,
+    "calibration_accuracy": 1.0
+  },
+  "expert": {
+    "direction": -1,
+    "scale": 135.90097045898438,
+    "tie_margin": 0.05,
+    "families": [
+      "scene_00000"
+    ],
+    "examples": 3,
+    "calibration_accuracy": 1.0
+  }
+}

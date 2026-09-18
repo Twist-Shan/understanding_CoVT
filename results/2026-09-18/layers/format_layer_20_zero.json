@@ -1,0 +1,228 @@
+[
+  {
+    "id": "balanced_000_d0_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_000_d0_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_000_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_000_d1_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_001_d0_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_001_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_002_d0_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_002_d0_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_002_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<|im_end|>"
+  },
+  {
+    "id": "balanced_002_d1_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_003_d0_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_003_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_004_d0_s0",
+    "original_answer": "A",
+    "letters": [
+      "A"
+    ],
+    "single_complete_answer_tag": true,
+    "unique_letter": "A",
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><answer>A</answer>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_004_d0_s1",
+    "original_answer": "A",
+    "letters": [
+      "A"
+    ],
+    "single_complete_answer_tag": true,
+    "unique_letter": "A",
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><answer>A</answer>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_004_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_004_d1_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": "气息\n<|im_end|>"
+  },
+  {
+    "id": "balanced_006_d0_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_006_d0_s1",
+    "original_answer": "A",
+    "letters": [
+      "A"
+    ],
+    "single_complete_answer_tag": true,
+    "unique_letter": "A",
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><answer>A</answer>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_006_d1_s0",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  },
+  {
+    "id": "balanced_006_d1_s1",
+    "original_answer": null,
+    "letters": [],
+    "single_complete_answer_tag": false,
+    "unique_letter": null,
+    "strict_flip": false,
+    "unique_letter_flip": false,
+    "ambiguous": false,
+    "text": " downloadable\n<think>Because the depth map of the image is </think><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|depth_pad|><|anchor_end|>. </think>\n<|im_end|>"
+  }
+]

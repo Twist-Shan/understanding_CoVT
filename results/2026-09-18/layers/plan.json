@@ -1,0 +1,44 @@
+{
+  "source": "/content/covt-pilot/runs/balanced-intervention-20260918-090000",
+  "source_sha256": "d343140c2f1740a2138fef86b4442f722f7e72b3c53fcfcd295b77136f036468",
+  "targets": [
+    "balanced_000_d0_s0",
+    "balanced_000_d0_s1",
+    "balanced_000_d1_s0",
+    "balanced_000_d1_s1",
+    "balanced_001_d0_s0",
+    "balanced_001_d1_s0",
+    "balanced_002_d0_s0",
+    "balanced_002_d0_s1",
+    "balanced_002_d1_s0",
+    "balanced_002_d1_s1",
+    "balanced_003_d0_s0",
+    "balanced_003_d1_s0",
+    "balanced_004_d0_s0",
+    "balanced_004_d0_s1",
+    "balanced_004_d1_s0",
+    "balanced_004_d1_s1",
+    "balanced_006_d0_s0",
+    "balanced_006_d0_s1",
+    "balanced_006_d1_s0",
+    "balanced_006_d1_s1"
+  ],
+  "layers": [
+    0,
+    4,
+    8,
+    14,
+    20,
+    24,
+    27
+  ],
+  "conditions": [
+    "identity",
+    "opposite_depth",
+    "zero"
+  ],
+  "probability_scope": "Teacher-forced original continuation up to, but excluding, the A/B answer token; P(A|A or B) and full-vocabulary probabilities. Distinct from free rollout.",
+  "rollout_scope": "From immediately after last natural depth pad; no old KV or answer suffix.",
+  "positive_control": "Transplant final-norm answer-predictor state from a sample with opposite emitted answer. Readout pipeline check, not depth-specific positive control.",
+  "limitations": "Single seed, six matched scene families; zero is off-manifold. Fixed-context probability diagnostic is not a total causal effect."
+}

@@ -1,0 +1,338 @@
+{
+  "all": {
+    "expert": {
+      "correct": {
+        "mean": 0.99,
+        "ci95": [
+          0.975,
+          1.0
+        ],
+        "families": 50
+      },
+      "abstain": {
+        "mean": 0.01,
+        "ci95": [
+          0.0,
+          0.025
+        ],
+        "families": 50
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 0.995,
+        "ci95": [
+          0.985,
+          1.0
+        ],
+        "families": 50
+      },
+      "abstain": {
+        "mean": 0.005,
+        "ci95": [
+          0.0,
+          0.015
+        ],
+        "families": 50
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 0.995,
+        "ci95": [
+          0.985,
+          1.0
+        ],
+        "families": 50
+      },
+      "abstain": {
+        "mean": 0.005,
+        "ci95": [
+          0.0,
+          0.015
+        ],
+        "families": 50
+      }
+    }
+  },
+  "boxes": {
+    "expert": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    }
+  },
+  "camera_variation": {
+    "expert": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    }
+  },
+  "ellipsoids": {
+    "expert": {
+      "correct": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.025,
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.025,
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.025,
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "families": 10
+      }
+    }
+  },
+  "partial_occlusion": {
+    "expert": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    }
+  },
+  "size_variation": {
+    "expert": {
+      "correct": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.025,
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "correct": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "families": 10
+      },
+      "abstain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    }
+  }
+}

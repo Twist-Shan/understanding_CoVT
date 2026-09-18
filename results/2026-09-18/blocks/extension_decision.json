@@ -1,0 +1,4 @@
+{
+  "extend": true,
+  "criterion": "No valid opposite-depth answer flip in all_layers"
+}

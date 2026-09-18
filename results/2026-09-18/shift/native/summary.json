@@ -1,0 +1,668 @@
+{
+  "attempted": 40,
+  "eligible": 39,
+  "failures": 1,
+  "answer_accuracy": {
+    "mean": 0.5583333333333333,
+    "ci95": [
+      0.4666666666666666,
+      0.675
+    ],
+    "families": 10
+  },
+  "decoder_accuracy": {
+    "mean": 0.9666666666666666,
+    "ci95": [
+      0.8999999999999998,
+      1.0
+    ],
+    "families": 10
+  },
+  "controls": {
+    "all": {
+      "cross_image": {
+        "correct": {
+          "mean": 0.9666666666666666,
+          "ci95": [
+            0.8999999999999998,
+            1.0
+          ],
+          "families": 10
+        },
+        "abstain": {
+          "mean": 0.03333333333333333,
+          "ci95": [
+            0.0,
+            0.1
+          ],
+          "families": 10
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 0.9666666666666666,
+          "ci95": [
+            0.8999999999999998,
+            1.0
+          ],
+          "families": 10
+        },
+        "abstain": {
+          "mean": 0.03333333333333333,
+          "ci95": [
+            0.0,
+            0.1
+          ],
+          "families": 10
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 0.9666666666666666,
+          "ci95": [
+            0.8999999999999998,
+            1.0
+          ],
+          "families": 10
+        },
+        "abstain": {
+          "mean": 0.03333333333333333,
+          "ci95": [
+            0.0,
+            0.1
+          ],
+          "families": 10
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 0.9666666666666666,
+          "ci95": [
+            0.8999999999999998,
+            1.0
+          ],
+          "families": 10
+        },
+        "abstain": {
+          "mean": 0.03333333333333333,
+          "ci95": [
+            0.0,
+            0.1
+          ],
+          "families": 10
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.565,
+          "ci95": [
+            0.48,
+            0.645
+          ],
+          "families": 10
+        },
+        "abstain": {
+          "mean": 0.01666666666666667,
+          "ci95": [
+            0.005,
+            0.034999999999999996
+          ],
+          "families": 10
+        }
+      }
+    },
+    "boxes": {
+      "cross_image": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.625,
+          "ci95": [
+            0.5,
+            0.75
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      }
+    },
+    "camera_variation": {
+      "cross_image": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.6000000000000001,
+          "ci95": [
+            0.55,
+            0.65
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.025,
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "families": 2
+        }
+      }
+    },
+    "ellipsoids": {
+      "cross_image": {
+        "correct": {
+          "mean": 0.8333333333333333,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "families": 2
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 0.8333333333333333,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "families": 2
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 0.8333333333333333,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "families": 2
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 0.8333333333333333,
+          "ci95": [
+            0.6666666666666666,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "families": 2
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.575,
+          "ci95": [
+            0.55,
+            0.6
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.03333333333333333,
+          "ci95": [
+            0.0,
+            0.06666666666666667
+          ],
+          "families": 2
+        }
+      }
+    },
+    "partial_occlusion": {
+      "cross_image": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.65,
+          "ci95": [
+            0.5,
+            0.8
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      }
+    },
+    "size_variation": {
+      "cross_image": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_example": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "fixed_mean": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "native": {
+        "correct": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "families": 2
+        }
+      },
+      "token_shuffle": {
+        "correct": {
+          "mean": 0.375,
+          "ci95": [
+            0.3,
+            0.45
+          ],
+          "families": 2
+        },
+        "abstain": {
+          "mean": 0.025,
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "families": 2
+        }
+      }
+    }
+  },
+  "effects": {
+    "cross_image": {
+      "abs_margin_delta": {
+        "mean": 0.0011614897905257398,
+        "ci95": [
+          0.0009871376691632536,
+          0.0013250172631202044
+        ],
+        "families": 10
+      },
+      "map_rmse": {
+        "mean": 0.3002385669449965,
+        "ci95": [
+          0.2747947583179921,
+          0.3253128287096818
+        ],
+        "families": 10
+      }
+    },
+    "fixed_example": {
+      "abs_margin_delta": {
+        "mean": 0.004500790857901703,
+        "ci95": [
+          0.003421226676826243,
+          0.005601291219593218
+        ],
+        "families": 10
+      },
+      "map_rmse": {
+        "mean": 1.2158952484528225,
+        "ci95": [
+          1.1638884962350131,
+          1.2673132457584142
+        ],
+        "families": 10
+      }
+    },
+    "fixed_mean": {
+      "abs_margin_delta": {
+        "mean": 0.00458547108472584,
+        "ci95": [
+          0.003512575951951046,
+          0.0056961885155836865
+        ],
+        "families": 10
+      },
+      "map_rmse": {
+        "mean": 1.1676182121038436,
+        "ci95": [
+          1.1194596288353205,
+          1.2128636362403629
+        ],
+        "families": 10
+      }
+    },
+    "native": {
+      "abs_margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      },
+      "map_rmse": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "families": 10
+      }
+    },
+    "token_shuffle": {
+      "abs_margin_delta": {
+        "mean": 0.7571129774653018,
+        "ci95": [
+          0.640370583910931,
+          0.9079355097570226
+        ],
+        "families": 10
+      },
+      "map_rmse": {
+        "mean": 144.65789557139078,
+        "ci95": [
+          137.36449659983316,
+          153.95717605940501
+        ],
+        "families": 10
+      }
+    }
+  },
+  "scope": "Prespecified 40-image native subset only; calibration frozen from previous run."
+}

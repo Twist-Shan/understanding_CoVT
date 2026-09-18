@@ -1,0 +1,25 @@
+{
+  "site": "model.layers.14",
+  "layers": 28,
+  "provenance": {
+    "model_id": "Wakals/CoVT-7B-depth",
+    "revision": "48f5a921c01db42b33ca0949b303b17a3e085bf4",
+    "dtype": "float32",
+    "attention": "eager",
+    "depth_token_id": 151669,
+    "unexpected_checkpoint_keys": [
+      "depth_cross_attention.in_proj_bias",
+      "depth_cross_attention.in_proj_weight",
+      "depth_cross_attention.out_proj.bias",
+      "depth_cross_attention.out_proj.weight",
+      "depth_projection.bias",
+      "depth_projection.weight",
+      "depth_query_vectors",
+      "depth_token_generator.0.bias",
+      "depth_token_generator.0.weight",
+      "depth_token_generator.2.bias",
+      "depth_token_generator.2.weight"
+    ],
+    "hidden_state_semantics": "post-final-norm at the depth-pad input positions; no position shift"
+  }
+}
